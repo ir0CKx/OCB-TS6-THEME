@@ -1,0 +1,364 @@
+/* OCB.GG Obsidian Glass 1.0.0-rc.10
+ * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
+ * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
+ */
+:root, :before, :after {
+  --ts-primary-background: #0d0f12 !important;
+  --ts-primary-background-darker: #090a0c !important;
+  --ts-primary-background-darker-op95: rgba(9,10,12,.97) !important;
+  --ts-primary-background-darker2: #07080a !important;
+  --ts-primary-accent-color: #c7d3e2 !important;
+  --ts-primary-font-color: #edf0f4 !important;
+  --ts-primary-font-color-invert: #101216 !important;
+  --ts-secondary-font-color: #bbc2cc !important;
+  --ts-muted-font-color: #969eaa !important;
+  --ts-third-font-color: #c7d3e2 !important;
+  --ts-panel-separator-color: #30353d !important;
+  --ts-divider-bg-color: #30353d !important;
+  --ts-sidebar-background: #0c0e11 !important;
+  --ts-sidebar-footer-background: #111419 !important;
+  --ts-content-titlebar-background: #0b0d10 !important;
+  --tsv-bg: #0f1217 !important;
+  --tsv-shaded-bg: #181b20 !important;
+  --tsv-contrast-bg: #24282e !important;
+  --tsv-contrast-strong-bg: #343a43 !important;
+  --tsv-contrast-font-color: #f1f3f7 !important;
+  --tsv-font-color: #edf0f4 !important;
+  --tsv-font-text-color: #edf0f4 !important;
+  --tsv-font-subtitle-color: #aab4c2 !important;
+  --tsv-subtitle-color: #aab4c2 !important;
+  --tsv-text-color: #edf0f4 !important;
+  --tsv-tint: #c7d3e2 !important;
+  --tsv-tint2: #d9e2ee !important;
+  --tsv-tint-light: #eaf0f8 !important;
+  --tsv-on-tint: #101419 !important;
+  --tsv-header-bg: #101318 !important;
+  --tsv-shaded-header-bg: #151a20 !important;
+  --tsv-footer-bg: #0e1116 !important;
+  --tsv-shaded-footer-bg: #151a20 !important;
+  --tsv-bar-bg: #151a20 !important;
+  --tsv-shaded-bar-bg: #101318 !important;
+  --tsv-settings-bg: #101318 !important;
+  --tsv-button-bg: #242b35 !important;
+  --tsv-button-hover-bg: #354152 !important;
+  --tsv-item-border-color: #343d49 !important;
+  --tsv-separation-border-color: #303843 !important;
+  --tsv-border-color: #303843 !important;
+  --tsv-shaded-bg-selection: #353e49 !important;
+  --tsv-subtle-highlight-bg-color: #303b4b !important;
+  --tsv-highlight-color: #dae3f0 !important;
+  --tsv-chat-remote-bg: #1b2028 !important;
+  --tsv-chat-remote-font-color: #edf0f4 !important;
+  --tsv-chat-self-bg: #2b323b !important;
+  --tsv-chat-self-font-color: #f4f6fa !important;
+  --tsv-chat-link-color: #b9d8ff !important;
+  --tsv-scrollbar-bg: #485261 !important;
+  --tsv-shadow-color: rgba(0,0,0,.45) !important;
+  --tsv-border-radius: 7px !important;
+  --ts-context-menu-background: #15181d !important;
+  --ts-context-menu-font-color: #edf0f4 !important;
+  --ts-context-menu-icon-tint-color: #c7d3e2 !important;
+  --ts-context-menu-item-action-hover-bg: #303944 !important;
+  --tsv-context-menu-border: 1px solid #626f80 !important;
+  --tsv-context-menu-disabled-color: #858e9b !important;
+  --tsv-context-menu-item-selection: #303944 !important;
+  --tsv-item-selection: rgba(180,198,220,.14) !important;
+  --tsv-shaded-item-selection: rgba(180,198,220,.17) !important;
+  --tsv-disabled-color: #858e9b !important;
+  --tsv-scrollbar-width: 8px !important;
+  /* Semantic status colors (error, recording, online, whisper) remain native. */
+}
+.main-content .app-content .ts-sidebar {
+  background: linear-gradient(180deg,rgba(8,10,13,.76),rgba(8,10,13,.97)),url("assets/glass.webp") center top / 1086px 362px no-repeat !important;
+  border-right: 1px solid #2b323d;
+}
+.ts-app-content-content {
+  background: linear-gradient(180deg,rgba(9,11,14,.70),rgba(9,11,14,.97)),url("assets/glass.webp") center top / 1086px 362px no-repeat !important;
+}
+.ts-server-tree-item-background-no-image {
+  width: auto !important;
+  background: linear-gradient(90deg,rgba(10,12,16,.93),rgba(15,18,23,.64)),url("assets/glass.webp") 50% 46% / 1086px 362px no-repeat !important;
+  box-shadow: inset 0 0 0 1px rgba(190,207,229,.07);
+}
+/* Preserve actual server-supplied banners and their aspect ratio. Fix the native 500px cap. */
+.ts-server-tree-item-background-image img,
+.ts-server-tree-item-background-image-full img {
+  width: 100% !important; max-width: none !important;
+  height: 100% !important; left: 0 !important;
+  object-fit: contain !important; object-position: center !important;
+  -webkit-mask-image: none !important;
+}
+.ts-server-tree-item-leaf.channel:hover,
+.ts-server-tree-item-leaf.spacer:hover {
+  background-color: rgba(180,198,222,.06);
+}
+.ts-server-tree-item-leaf.tsv-selected {
+  box-shadow: inset 2px 0 0 #c7d3e2;
+}
+.tsv-view-banner .tsv-view-background {
+  background-color: #090b0e;
+}
+.ts-server-header .tsv-view-background {
+  background-image: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.36)),url("assets/header.webp");
+  background-position: center;
+  background-size: auto, min(100%, 1086px) auto;
+  background-repeat: no-repeat;
+}
+
+input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-visible,a:focus-visible {
+  outline: 2px solid #b9d8ff !important; outline-offset: 2px;
+}
+::selection { background: #536680; color: #fff; }
+
+/* Keep decorative raster art within its native pixel budget on HiDPI screens.
+   No tiled texture, pixelated filtering, forced font smoothing or bitmap labels. */
+@media (min-resolution: 2.5dppx) {
+  .main-content .app-content .ts-sidebar,
+  .ts-app-content-content,
+  .ts-server-tree-item-background-no-image { background-size: auto, 724px 241.333px !important; }
+  .ts-server-header .tsv-view-background { background-size: auto, min(100%, 724px) auto; }
+}
+
+/* Original OCB header: responsive 3:1 frame, no fixed-height crop or side gaps. */
+.ts-server-header .tsv-view-banner {
+  box-sizing: border-box;
+  aspect-ratio: 3 / 1;
+  height: auto;
+  min-height: 0 !important;
+}
+.ts-server-header .tsv-view-banner .tsv-view-background {
+  margin-top: 0 !important;
+  background-size: auto, 100% 100% !important;
+}
+.ts-server-header .tsv-view-banner .tsv-view-image,
+.ts-server-header .tsv-view-banner .tsv-view-content,
+.ts-server-header .tsv-view-banner .tsv-view-accessory { margin-top: 0; }
+
+/* Continuous viewport backdrop: same image coordinates across both panels. */
+.main-content .app-content .ts-sidebar,
+.ts-app-content-content {
+  background-image: linear-gradient(180deg,rgba(8,10,13,.70) 0%,rgba(8,10,13,.77) 55%,rgba(8,10,13,.86) 100%),url("assets/glass.webp") !important;
+  background-position: center, center !important;
+  background-size: auto, cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Blend only decorative layers; native labels and controls stay fully opaque. */
+.ts-server-header .tsv-view-banner {
+  background: transparent !important;
+  border: 0;
+  box-shadow: none;
+}
+.ts-server-header .tsv-view-banner .tsv-view-background {
+  border-radius: 0;
+  -webkit-mask-image: linear-gradient(to bottom,transparent 0%,#000 7%,#000 78%,transparent 100%);
+  mask-image: linear-gradient(to bottom,transparent 0%,#000 7%,#000 78%,transparent 100%);
+}
+.ts-server-header .tsv-view-background:before,
+.ts-server-header .tsv-view-background:after {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.ts-server-tree-item-background-no-image {
+  background-image: linear-gradient(90deg,rgba(8,10,13,.82),rgba(8,10,13,.62)),url("assets/glass.webp") !important;
+  background-size: auto, cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  box-shadow: none;
+}
+.ts-server-tree-item-background-no-image,
+.ts-server-tree-item-background-image,
+.ts-server-tree-item-background-image-full {
+  -webkit-mask-image: linear-gradient(to bottom,transparent 0%,#000 16%,#000 84%,transparent 100%);
+  mask-image: linear-gradient(to bottom,transparent 0%,#000 16%,#000 84%,transparent 100%);
+}
+.main-content .app-content .ts-sidebar { border-right-color: rgba(190,207,229,.09); }
+
+/* Respect native row geometry and nesting; virtualized trees keep their heights. */
+.ts-server-tree-item-leaf.channel,
+.ts-server-tree-item-leaf.spacer { text-shadow: 0 1px 3px rgba(0,0,0,.85); }
+.ts-server-tree-item-leaf.spacer {
+  background: linear-gradient(90deg,transparent,rgba(178,193,212,.07) 45%,transparent);
+  color: #c7d3e2;
+}
+.ts-server-tree-item-leaf.channel:hover {
+  background: linear-gradient(90deg,rgba(174,191,214,.10),rgba(174,191,214,.025));
+}
+.ts-server-tree-item-leaf.channel.tsv-selected {
+  background: linear-gradient(90deg,rgba(174,191,214,.18),rgba(174,191,214,.045));
+  box-shadow: inset 2px 0 0 #d5dfe9;
+}
+.ts-server-header .tsv-view-content {
+  text-shadow: 0 1px 4px #000,0 0 12px rgba(0,0,0,.8);
+}
+.ts-server-header .tsv-view-accessory {
+  border-radius: var(--tsv-border-radius);
+  background-color: rgba(8,10,13,.65);
+}
+
+/* TS6 renders this direct child for channels WITHOUT a server banner.
+   Keep native positioning, indentation, icons and selected/active outlines. */
+.ts-server-tree-item-leaf.channel > .tsv-item-highlight {
+  display: block;
+  background-image: linear-gradient(90deg,rgba(8,10,13,.82),rgba(8,10,13,.62)),url("assets/glass.webp") !important;
+  background-color: #0d1015;
+  background-size: auto, cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  -webkit-mask-image: linear-gradient(to bottom,transparent 0%,#000 16%,#000 84%,transparent 100%);
+  mask-image: linear-gradient(to bottom,transparent 0%,#000 16%,#000 84%,transparent 100%);
+}
+
+/* Solid menus keep artwork away from commands and avoid blur rendering cost. */
+.ts-context-menu,.ts-false-context-menu {
+  background-color: #15181d !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,.32);
+}
+/* Native sizing and input affordances stay intact. */
+.ts-text-input-box-inner .ts-input:not(:disabled) {
+  border-color: #626f80;
+}
+.ts-input::placeholder { color: #aab4c2; opacity: 1; }
+.ts-input:focus-visible,
+[contenteditable="true"]:focus-visible,
+.tsv-item[tabindex]:focus-visible {
+  outline: 2px solid #b9d8ff !important;
+  outline-offset: -2px;
+}
+.ts-server-tree-item-leaf.channel {
+  transition: background-color 100ms ease, box-shadow 100ms ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ts-server-tree-item-leaf.channel,
+  .ts-server-tree-item-background-no-image,
+  .ts-server-tree-item-background-image,
+  .ts-server-tree-item-background-image-full { transition: none !important; }
+}
+
+/* Actual TS6 tree surfaces use additional variables from the bundled UI. */
+:root, .ts-server-tree-wrapper, .ts-server-tree-item-root {
+  --tsv-main-bg-gradient-start: #0d1015 !important;
+  --tsv-main-bg-gradient-end: #11151b !important;
+  --tsv-servertree-bg-gradient: linear-gradient(180deg,#0d1015,#11151b) !important;
+  --tsv-view-header-bg: #101318 !important;
+}
+.ts-server-tree-wrapper {
+  background: linear-gradient(180deg,#0d1015,#11151b) !important;
+}
+.ts-server-tree-wrapper .ts-server-tree-item-root {
+  background: transparent !important;
+}
+.ts-server-tree-item-leaf.client {
+  background-color: rgba(12,15,20,.62);
+}
+.ts-server-tree-item-leaf.client:hover {
+  background-color: rgba(185,201,222,.08);
+}
+.ts-server-tree-item-leaf.client.tsv-selected {
+  background-color: rgba(185,201,222,.14);
+}
+/* Reduce the repeated strip contrast while leaving native names/icons intact. */
+.ts-server-tree-item-background-image > img,
+.ts-server-tree-item-background-image-full > img { opacity: .78; }
+/* Place native server identity below the artwork's large headline. */
+.ts-server-header .tsv-view-banner {
+  align-items: flex-end !important;
+  padding-bottom: 14px;
+}
+.ts-server-header .tsv-view-banner .tsv-view-image,
+.ts-server-header .tsv-view-banner .tsv-view-content,
+.ts-server-header .tsv-view-banner .tsv-view-accessory {
+  margin-top: 0 !important;
+  align-self: flex-end;
+}
+.ts-server-header .tsv-view-banner .tsv-view-content {
+  background: rgba(8,10,13,.84);
+  border-radius: 6px;
+  padding: 7px 9px;
+  color: #edf0f4 !important;
+  min-width: 0;
+}
+.ts-server-header .tsv-view-banner .tsv-view-accessory {
+  background: rgba(8,10,13,.84);
+}
+
+/* Current TS6 navigation uses tsv-sidebar, not the legacy ts-sidebar selector. */
+:root,::before,::after {
+  --ts-new-header-bg: #0c0f13 !important;
+  --tsv-side-bar-bg-gradient-bottom: #11151b !important;
+  --tsv-deviant-bg: #1a2028 !important;
+  --presence-separator-presence: #252c35 !important;
+  --strong-bg: #0a0d11 !important;
+  --ts-tree-badges-bg: #1a2028 !important;
+  --ts-tree-channel-bg-start: #101419 !important;
+  --ts-tree-channel-bg-end: #161c23 !important;
+  --tsv-server-header-gradient-start: #0d1116 !important;
+  --tsv-server-header-gradient-end: #1b222c !important;
+  --tsv-view-header-gradient-start: #151b23 !important;
+  --tsv-view-header-gradient-end: #0e1218 !important;
+  --tsv-button-filled-bg: #303944 !important;
+  --tsv-button-filled-disabled-bg: #232932 !important;
+  --card-background: #151a21 !important;
+  --card-hover-background: #202832 !important;
+  --card-background-inverted: #171e27 !important;
+  --card-outline: #485565 !important;
+  --settings-highlight-bg: #2c3540 !important;
+  --tsv-preview-bg: #11161c !important;
+  --tsv-preview-font-color: #edf0f4 !important;
+  --tsv-dashboard-add-contact-bg: #151a21 !important;
+  --spacer-bg-gradient-from: #11161c !important;
+  --spacer-bg-gradient-to: #202832 !important;
+}
+.tsv-sidebar .tsv-body-background {
+  background: linear-gradient(180deg,rgba(12,15,19,.95),rgba(17,21,27,.91)),url("assets/glass.webp") center/cover no-repeat !important;
+}
+.tsv-sidebar .tsv-search-bar,
+.tsv-sidebar .tsv-location-bar {
+  background: #1a2028 !important;
+  box-shadow: inset 0 0 0 1px rgba(190,207,229,.15);
+}
+.tsv-sidebar .tsv-footer:not(.transparent) {
+  background-color: #11151b !important;
+}
+.tsv-highlight.tsv-header { background-color: #0c0f13 !important; }
+
+/* One continuous artwork per channel-tree viewport, never one copy per row. */
+.ts-server-tree-wrapper {
+  background-image: linear-gradient(180deg,rgba(8,11,15,.64),rgba(8,11,15,.76) 55%,rgba(8,11,15,.88)),url("assets/glass.webp") !important;
+  background-color: #0d1015 !important;
+  background-size: auto, cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+}
+.ts-server-tree-wrapper .ts-server-tree-item-root { background: transparent !important; }
+.ts-server-tree-wrapper .ts-server-tree-item-background-no-image,
+.ts-server-tree-wrapper .ts-server-tree-item-background-image,
+.ts-server-tree-wrapper .ts-server-tree-item-background-image-full,
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.channel > .tsv-item-highlight {
+  background: transparent !important;
+}
+/* Server-supplied row artwork is locally suppressed for this continuous mode.
+   Native group icons, avatars, labels and the server header are untouched. */
+.ts-server-tree-wrapper .ts-server-tree-item-background-image > img,
+.ts-server-tree-wrapper .ts-server-tree-item-background-image-full > img,
+.ts-server-tree-wrapper .ts-server-tree-item-background-image-blur { opacity: 0 !important; }
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.channel {
+  background: linear-gradient(90deg,rgba(8,11,15,.24),rgba(8,11,15,.04)) !important;
+}
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.client { background-color: rgba(8,11,15,.30); }
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.spacer {
+  background: linear-gradient(90deg,transparent,rgba(190,207,229,.055),transparent) !important;
+}
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.channel:hover {
+  background: rgba(190,207,229,.10) !important;
+}
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.channel.tsv-selected {
+  background: rgba(190,207,229,.16) !important;
+  box-shadow: inset 2px 0 #d5dfe9;
+}

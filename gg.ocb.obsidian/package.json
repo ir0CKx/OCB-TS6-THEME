@@ -1,0 +1,31 @@
+{
+  "name": "OCB.GG Obsidian Glass",
+  "description": "Dark client theme with silver accents and abstract glass artwork by OCB.GG. Local assets, no remote content.",
+  "version": "1.0.0-rc.10",
+  "identifier": "gg.ocb.obsidian",
+  "engines": {
+    "teamspeak": 1
+  },
+  "repository": "https://github.com/ir0CKx/OCB-TS6-THEME.git",
+  "author": {
+    "name": "OCB.GG | #OTHERSCANTBEAT"
+  },
+  "image": "preview.png",
+  "license": "Proprietary",
+  "keywords": [
+    "dark",
+    "glass",
+    "ocb",
+    "theme"
+  ],
+  "content": {
+    "themes": [
+      {
+        "name": "OCB Obsidian Glass RC10",
+        "source": "obsidian-rc10.css",
+        "image": "preview.png",
+        "apiVersion": 1
+      }
+    ]
+  }
+}
