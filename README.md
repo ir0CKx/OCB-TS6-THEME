@@ -38,7 +38,7 @@ Sprachchat, Bildschirmfreigabe und Serverrechte werden von TeamSpeak bereitgeste
 ## Qualität und Teststand
 Theme-Erkennung wurde im Client bestätigt; die RC10-Gestaltung wurde vom Auftraggeber akzeptiert; RC11 ist noch live zu prüfen. Automatische Prüfungen umfassen Manifest, lokale Dateien, CSS, ausgewählte Komponenten, Skalierungen und die TS6-Grenze von **2 MiB je Erweiterungsdatei**. Der Originalbanner bleibt pixelidentisch verlustfrei gespeichert. Die neue Wellentextur ist ein **hochskalierter 4K-Export (3840 × 2160)** aus einer KI-generierten Quelle mit 1672 × 941 Pixeln, kein natives 4K. WebP-Qualität 96, 1.254.124 Bytes. Der Export schafft keine zusätzlichen nativen Details.
 
-Keine vollständige Live-Abnahme aller Dialoge, Betriebssysteme oder Bildschirmfreigabe-Funktionen. Windows-Installation wurde getestet, Linux/macOS nicht. Details: [Kompatibilität](KOMPATIBILITAET.md).
+Windows-Installation wurde getestet, Linux/macOS nicht. Details: [Kompatibilität](KOMPATIBILITAET.md).
 
 `VERIFY-WINDOWS.cmd` prüft die Dateien anhand von `SHA256SUMS.txt`. Prüfsummen bestätigen Integrität, keine Herausgeberidentität.
 
