@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.12
+/* OCB.GG Obsidian Glass 1.0.0-rc.13
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
@@ -415,3 +415,53 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-info-contact-management { order: 10; }
 .tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-info-groups-container:has(.ts-identifier-label) { order: 20; }
 .tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-info-groups-container:has(.tsv-client-info-groups, .tsv-client-myts-info-fallback) { order: 40; }
+
+/* RC13: readable narrow client panels without changing virtualized tree heights. */
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container {
+  min-width: 0;
+  max-width: 100%;
+  row-gap: 8px;
+  box-sizing: border-box;
+}
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > * {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-inline: 0;
+}
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .ts-card:not(.tsv-client-banner) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tsv-client-info .tsv-client-info-groups-container h5 { margin-top: 0; margin-bottom: 6px; }
+.tsv-client-info .tsv-server-info-footer { padding-top: 8px; border-top: 1px solid var(--tsv-border-color); }
+.tsv-client-info .tsv-server-info-footer > .title,
+.tsv-client-info .tsv-server-info-grid-item-single,
+.tsv-client-info .ts-identifier-label { min-width: 0; max-width: 100%; }
+.tsv-client-info .tsv-server-info-footer > .title,
+.tsv-client-info .tsv-server-info-footer > .title span,
+.tsv-client-info .ts-identifier-label,
+.tsv-client-info .tsv-client-info-groups .tsv-item-text,
+.tsv-client-info .tsv-server-info-grid-item-single > .title,
+.tsv-client-info .tsv-server-info-grid-item-single > .subtitle {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.tsv-client-info .tsv-item-content { min-width: 0; }
+.tsv-client-info .tsv-item-action { flex-shrink: 0; }
+/* Stable selection takes precedence over hover; speaking/status icons remain native. */
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.channel.tsv-selected,
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.client.tsv-selected {
+  background: rgba(190,207,229,.20) !important;
+  box-shadow: inset 3px 0 0 #d5dfe9;
+}
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.client:hover:not(.tsv-selected) {
+  background-color: rgba(190,207,229,.10);
+}
+.tsv-client-info button:focus-visible,
+.tsv-client-info a:focus-visible,
+.ts-server-tree-wrapper [tabindex]:focus-visible {
+  outline: 2px solid #b9d8ff !important;
+  outline-offset: -2px;
+}

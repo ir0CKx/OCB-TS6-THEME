@@ -1,7 +1,7 @@
 {
   "name": "OCB.GG Obsidian Glass",
   "description": "Dark client theme with silver accents and abstract glass artwork by OCB.GG. Local assets, no remote content.",
-  "version": "1.0.0-rc.12",
+  "version": "1.0.0-rc.13",
   "identifier": "gg.ocb.obsidian",
   "engines": {
     "teamspeak": 1
@@ -21,8 +21,8 @@
   "content": {
     "themes": [
       {
-        "name": "OCB Obsidian Glass RC12",
-        "source": "obsidian-rc12.css",
+        "name": "OCB Obsidian Glass RC13",
+        "source": "obsidian-rc13.css",
         "image": "preview.png",
         "apiVersion": 1
       }

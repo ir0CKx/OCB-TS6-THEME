@@ -1,0 +1,729 @@
+{
+  "result": {
+    "order": [
+      [
+        "photo",
+        "0"
+      ],
+      [
+        "contact",
+        "10"
+      ],
+      [
+        "tag",
+        "20"
+      ],
+      [
+        "connection",
+        "30"
+      ],
+      [
+        "groups",
+        "40"
+      ],
+      [
+        "badges",
+        "50"
+      ],
+      [
+        "identity",
+        "60"
+      ]
+    ],
+    "watermark": "44px",
+    "accent": "#c7d3e2",
+    "uidOrder": "10",
+    "versionOrder": "0"
+  },
+  "scales": [
+    {
+      "zoom": 1,
+      "width": 280,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1,
+      "width": 360,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1,
+      "width": 500,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1.25,
+      "width": 280,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1.25,
+      "width": 360,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1.25,
+      "width": 500,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1.5,
+      "width": 280,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1.5,
+      "width": 360,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 1.5,
+      "width": 500,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 2,
+      "width": 280,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 280,
+          "s": 280,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 2,
+      "width": 360,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 360,
+          "s": 360,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    },
+    {
+      "zoom": 2,
+      "width": 500,
+      "overflow": false,
+      "uidWrap": "anywhere",
+      "boxes": [
+        {
+          "id": "",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "0px 0px 64px"
+        },
+        {
+          "id": "photo",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "badges",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "tag",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "groups",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "connection",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "18px"
+        },
+        {
+          "id": "identity",
+          "w": 500,
+          "s": 500,
+          "min": "0px",
+          "p": "8px 0px 0px"
+        }
+      ]
+    }
+  ],
+  "selected": "rgb(213, 223, 233) 3px 0px 0px 0px inset",
+  "focus": "solid",
+  "optionalContact": "PASS",
+  "priorCSSUnchanged": true,
+  "liveClient": false
+}

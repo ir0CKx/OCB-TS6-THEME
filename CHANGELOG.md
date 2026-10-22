@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0-rc.13 — 22. Oktober 2026
+- Lange UID-, Nutzertag- und Gruppenangaben im Nutzerbereich dürfen umbrechen.
+- Einheitliche Kartenabstände und kompaktere Abschnittsüberschriften.
+- Auswahl bleibt auch beim Hover deutlich; gleiche Auswahlmarkierung für Nutzer und Kanäle.
+- Sichtbarer Tastaturfokus, native Baumzeilenhöhen und Statusicons bleiben erhalten.
+- Bestehende Farben, Grafiken und Nutzerbereich-Reihenfolge unverändert.
+
 ## 1.0.0-rc.12 — 22. Oktober 2026
 - Bestehende silberne Akzentfarben unverändert; keine lachsroten TS3-Farben übernommen.
 - Native Nutzerbereiche sortiert: Nutzerbild, Kontaktaktion, Nutzertag, Verbindung/Standort, Gruppen, Abzeichen, Status und Identität; UID als letzter Eintrag.
