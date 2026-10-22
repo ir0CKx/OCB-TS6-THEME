@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.14 — 22. Oktober 2026
+- Fehler in der Nutzeransicht behoben: Native Karten behielten bei vertikaler Anordnung ihre für horizontale Anordnung gedachte Flex-Basis von 100 % und ihr Wachstum. Dies konnte überhohe Karten und große Leerflächen verursachen.
+- Karten verwenden jetzt ihre Inhaltshöhe; der Container richtet sie oben aus.
+- Regressionstest verwendet zusätzlich die bisher fehlende native Elternklasse `tsv-server-info`, feste Fensterhöhen und unterschiedliche Karteninhalte.
+- Reihenfolge, Farben und Hintergrund bleiben unverändert.
+
 ## 1.0.0-rc.13 — 22. Oktober 2026
 - Lange UID-, Nutzertag- und Gruppenangaben im Nutzerbereich dürfen umbrechen.
 - Einheitliche Kartenabstände und kompaktere Abschnittsüberschriften.

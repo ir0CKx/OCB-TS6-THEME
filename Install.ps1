@@ -7,7 +7,7 @@ if ($meta.identifier -ne $identifier) { throw 'Ungueltige Paketkennung.' }
 $root = [IO.Path]::GetFullPath($ExtensionsRoot)
 $target = [IO.Path]::GetFullPath((Join-Path $root $identifier))
 if ([IO.Path]::GetDirectoryName($target) -ne $root.TrimEnd('\')) { throw 'Zielpfadpruefung fehlgeschlagen.' }
-foreach ($rel in @('package.json','obsidian-rc13.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
+foreach ($rel in @('package.json','obsidian-rc14.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
  if (-not (Test-Path -LiteralPath (Join-Path $source $rel) -PathType Leaf)) { throw "Datei fehlt: $rel" }
 }
 foreach ($asset in Get-ChildItem -LiteralPath $source -Recurse -File) {

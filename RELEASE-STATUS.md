@@ -1,1 +1,1 @@
-RC13: Quellen und Download fuer die Veroeffentlichung vorbereitet. RC10 live bestaetigt; neue RC13-Grafik und Icon-Regeln in Komponenten-/Layouttests geprueft. Vollstaendige Live-Abnahme bleibt offen. Nutzungsbedingungen in LICENSE.txt.
+RC14: Quellen und Download fuer die Veroeffentlichung vorbereitet. RC10 live bestaetigt; neue RC14-Grafik und Icon-Regeln in Komponenten-/Layouttests geprueft. Vollstaendige Live-Abnahme bleibt offen. Nutzungsbedingungen in LICENSE.txt.

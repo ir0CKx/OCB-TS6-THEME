@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.13
+/* OCB.GG Obsidian Glass 1.0.0-rc.14
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
@@ -464,4 +464,17 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .ts-server-tree-wrapper [tabindex]:focus-visible {
   outline: 2px solid #b9d8ff !important;
   outline-offset: -2px;
+}
+
+/* RC14: native .tsv-server-info cards use flex-basis:100% and flex-grow:1
+   for a ROW layout. Reset both when arranging them in a COLUMN. */
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100% !important;
+  height: auto;
+  flex: 0 0 auto;
+}
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > * {
+  flex: 0 0 auto !important;
 }
