@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.11
+/* OCB.GG Obsidian Glass 1.0.0-rc.12
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
@@ -371,3 +371,47 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .tsv-sidebar .tsv-item-icon-stack:not(:has(.tsv-avatar,img,svg[name="server-mask"])) > svg[name="server"] > * {
   opacity: 0;
 }
+
+/* RC12: native client-info sections, inspected in the installed TS6 bundle.
+   No new client data, translated labels, hidden status controls or scripts. */
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  padding-bottom: 64px;
+}
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > * { order: 55; }
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-badge-showcase { order: 50; }
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-server-info-grid { order: 30; }
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-server-info-footer {
+  order: 60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+/* The UID is the first title; version and optional debug entries precede it.
+   Its native tooltip (client ID / database ID) remains available. */
+.tsv-client-info .tsv-server-info-footer > .title:first-child {
+  order: 10;
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 44px;
+  height: 44px;
+  background: url("assets/bigcircle.webp") center / contain no-repeat;
+  opacity: .24;
+  pointer-events: none;
+}
+
+/* Optional cards are identified by native structural classes, not translated text. */
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-banner { order: 0; }
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-info-contact-management { order: 10; }
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-info-groups-container:has(.ts-identifier-label) { order: 20; }
+.tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > .tsv-client-info-groups-container:has(.tsv-client-info-groups, .tsv-client-myts-info-fallback) { order: 40; }

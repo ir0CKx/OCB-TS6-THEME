@@ -1,3 +1,12 @@
+# Changelog
+
+## 1.0.0-rc.12 — 22. Oktober 2026
+- Bestehende silberne Akzentfarben unverändert; keine lachsroten TS3-Farben übernommen.
+- Native Nutzerbereiche sortiert: Nutzerbild, Kontaktaktion, Nutzertag, Verbindung/Standort, Gruppen, Abzeichen, Status und Identität; UID als letzter Eintrag.
+- Native ID-Tooltips und Bedienelemente bleiben erhalten. Keine zusätzlichen Datenfelder oder Netzwerkanfragen.
+- Dezentes 44-Pixel-Bigcircle-Wasserzeichen mit 24 % Deckkraft im Nutzerbereich.
+- Grenzen der Übertragung aus TS3 in der README dokumentiert.
+
 # Änderungen
 
 ## 1.0.0-rc.3

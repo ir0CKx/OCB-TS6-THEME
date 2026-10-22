@@ -1,0 +1,41 @@
+{
+  "result": {
+    "order": [
+      [
+        "photo",
+        "0"
+      ],
+      [
+        "contact",
+        "10"
+      ],
+      [
+        "tag",
+        "20"
+      ],
+      [
+        "connection",
+        "30"
+      ],
+      [
+        "groups",
+        "40"
+      ],
+      [
+        "badges",
+        "50"
+      ],
+      [
+        "identity",
+        "60"
+      ]
+    ],
+    "watermark": "44px",
+    "accent": "#c7d3e2",
+    "uidOrder": "10",
+    "versionOrder": "0"
+  },
+  "optionalContact": "PASS",
+  "priorCSSUnchanged": true,
+  "liveClient": false
+}
