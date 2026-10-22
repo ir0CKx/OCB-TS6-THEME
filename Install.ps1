@@ -7,7 +7,7 @@ if ($meta.identifier -ne $identifier) { throw 'Ungueltige Paketkennung.' }
 $root = [IO.Path]::GetFullPath($ExtensionsRoot)
 $target = [IO.Path]::GetFullPath((Join-Path $root $identifier))
 if ([IO.Path]::GetDirectoryName($target) -ne $root.TrimEnd('\')) { throw 'Zielpfadpruefung fehlgeschlagen.' }
-foreach ($rel in @('package.json','obsidian-rc10.css','preview.png','assets\glass.webp','assets\header.webp','assets\bigcircle.webp')) {
+foreach ($rel in @('package.json','obsidian-rc11.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
  if (-not (Test-Path -LiteralPath (Join-Path $source $rel) -PathType Leaf)) { throw "Datei fehlt: $rel" }
 }
 foreach ($asset in Get-ChildItem -LiteralPath $source -Recurse -File) {
@@ -35,4 +35,4 @@ catch {
  if ($backup -and -not (Test-Path -LiteralPath $target)) { Move-Item -LiteralPath $backup -Destination $target }
  throw
 }
-Write-Output 'Installiert. TeamSpeak starten, Themes aktualisieren und OCB Obsidian Glass RC10 auswaehlen.'
+Write-Output 'Installiert. TeamSpeak starten, Themes aktualisieren und OCB Obsidian Glass auswaehlen.'

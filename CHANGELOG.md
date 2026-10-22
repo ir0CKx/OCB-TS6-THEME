@@ -34,3 +34,6 @@ Aktuelle tsv-sidebar statt nur alter ts-sidebar-Klassen erfasst. Navigation, obe
 
 ## 1.0.0-rc.10 – Durchgehender Kanalhintergrund
 Eine gemeinsame Glas-/Wellentextur pro Kanalbaum-Ansicht. Einzelne Server-Kanalbanner werden fuer diese Darstellung lokal transparent geschaltet; die Serverdateien bleiben unveraendert. Native Icons und Texte bleiben sichtbar. Das Motiv reicht ueber die sichtbare Baumhoehe und wird nicht pro Zeile wiederholt.
+
+## 1.0.0-rc.11 – 4K-Export und Standard-Servericons
+Neue KI-verfeinerte 16:9-Wellentextur, Export 3840 x 2160 aus 1672 x 941 Quellpixeln (hochskaliert, kein natives 4K). Originalbanner und Bigcircle unveraendert. Nur generische Server-SVGs in der linken Sidebar ohne individuelle Bildebene werden durch Bigcircle ersetzt. Statusicons bleiben bestehen.

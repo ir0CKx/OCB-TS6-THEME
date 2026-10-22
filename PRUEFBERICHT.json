@@ -2,7 +2,7 @@
   "manifestSchema": "PASS \u2013 schema features used by installed docs/extensions.json",
   "localResources": "PASS",
   "cssParsing": {
-    "rules": 60,
+    "rules": 62,
     "bg": "rgb(13, 15, 18)",
     "text": "rgb(237, 240, 244)",
     "missing": 0
@@ -29,8 +29,42 @@
     "maxWidth": "none",
     "footerImage": "none"
   },
-  "installer": "PASS: Default profile updated with backup",
-  "liveTeamSpeak": "Loading and RC10 visual design confirmed by user; full feature suite not tested",
+  "installer": "PASS: profile updated with backup",
+  "liveTeamSpeak": "RC10 accepted by user; RC11 visual confirmation pending",
   "repository": "https://github.com/ir0CKx/OCB-TS6-THEME",
-  "extensionFileLimit": "PASS <=2MiB per theme file"
+  "iconIsolation": {
+    "default": {
+      "bg": "local assets/bigcircle.webp",
+      "pathOpacity": "0"
+    },
+    "custom": {
+      "bg": "none",
+      "pathOpacity": "1"
+    },
+    "mask": {
+      "bg": "none",
+      "pathOpacity": "1"
+    },
+    "outside": {
+      "bg": "none",
+      "pathOpacity": "1"
+    },
+    "statusOpacity": "1"
+  },
+  "extensionFileLimit": "PASS: all theme files <=2MiB",
+  "graphics": {
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "exportSize": [
+      3840,
+      2160
+    ],
+    "upscaled": true,
+    "webpQuality": 96,
+    "bytes": 1254124,
+    "limitBytes": 2097152,
+    "originalHeaderAndLogo": "unchanged"
+  }
 }

@@ -9,3 +9,5 @@ Noch live zu prüfen: Aktivierung im Client; Sprachkanäle, Mikrofon/Stummschalt
 Bildqualität: Originalbanner und Glastextur jeweils 2172 × 724 Pixel, Bigcircle 724 × 732. Der Banner ist verlustfrei als WebP umkodiert; seine dekodierten Bildpixel bleiben identisch. Flächige Hintergrundtexturen dürfen zur vollständigen Abdeckung großer Fenster skaliert und beschnitten werden. Der Kopfbanner bleibt im 3:1-Format. Echte zusätzliche Details entstehen beim Hochskalieren nicht. Schrift und CSS-Elemente werden nativ gerendert.
 
 Keine externen Schriften, Skripte oder Netzwerkanfragen durch das Theme. Nur lokale Bilder und CSS. Kein automatisches Update und keine digitale Signatur; Prüfsummen prüfen Dateiintegrität, nicht die Identität des Herausgebers.
+
+RC11: Neue Wellentextur, KI-verfeinert und von 1672 x 941 auf 3840 x 2160 hochskaliert. Kein natives 4K. WebP-Export innerhalb 2 MiB; siehe GRAFIKQUALITAET.json. Originalbanner und Bigcircle unveraendert.
