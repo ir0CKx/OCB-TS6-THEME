@@ -1,1 +1,1 @@
-RC19: Bereinigung und robustere Paketverwaltung. RC18-Freigabedialog live im maximierten Fenster geprüft, RC17-Empfang extern bestätigt. Kein Nachweis einer dauerhaften Behebung des Windows-Explorer-Startabsturzes.
+RC20 korrigiert die in RC19 fehlerhafte Theme-Erkennung. RC19 nicht mehr verwenden: Variantenname war länger als die vom Client erlaubten 30 Zeichen.

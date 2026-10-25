@@ -23,4 +23,15 @@ foreach ($item in Get-ChildItem -LiteralPath $themeRoot -Recurse -Force) {
   throw "Unexpected theme file. Extract the ZIP into an empty folder: $($item.Name)"
  }
 }
-Write-Output "OK: $count files verified."
+$meta = Get-Content -LiteralPath (Join-Path $themeRoot 'package.json') -Raw | ConvertFrom-Json
+if ($meta.identifier -ne 'gg.ocb.obsidian') { throw 'Invalid theme identifier.' }
+if ($meta.name.Length -lt 5 -or $meta.name.Length -gt 64) { throw 'Package name must contain 5 to 64 characters.' }
+if (@($meta.content.themes).Count -lt 1) { throw 'No theme variants found.' }
+foreach ($variant in $meta.content.themes) {
+ if ($variant.name.Length -lt 4 -or $variant.name.Length -gt 30) { throw 'TeamSpeak theme variant names must contain 4 to 30 characters. Package not installed.' }
+ foreach ($relative in @($variant.source, $variant.image, $meta.image)) {
+  $asset = [IO.Path]::GetFullPath((Join-Path $themeRoot $relative))
+  if (-not $asset.StartsWith($themeRoot + '\', [StringComparison]::OrdinalIgnoreCase) -or -not (Test-Path -LiteralPath $asset -PathType Leaf)) { throw 'Invalid or missing manifest asset.' }
+ }
+}
+Write-Output "OK: $count files verified; manifest names and assets checked."
