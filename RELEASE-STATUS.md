@@ -1,1 +1,1 @@
-RC25: Graue, kontrastreiche Gruppenlabels in Nutzeransicht und Gruppenvorschauen.
+RC26: OCB-Dashboard mit Originalbanner und responsiven Glas-Karten. Browser-Komponententests; noch kein Live-Dashboard-Abnahmetest.

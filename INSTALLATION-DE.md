@@ -12,7 +12,7 @@
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.25**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.26**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 

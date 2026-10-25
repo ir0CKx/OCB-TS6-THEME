@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0-rc.26 — 25. Oktober 2026
+- Dashboard im OCB-Look: originaler lokaler Banner, dunkler Glas-/Wellenhintergrund, texturierte Karten und silberne Aktionen.
+- Vorhandene Community-, Server-, Chat- und News-Inhalte bleiben erhalten; keine neuen Datenabfragen oder erfundenen Funktionen.
+- Kartenraster passt sich schmalen Bereichen an, Tastaturfokus bleibt sichtbar; reduzierte Bewegung wird für dekorative Hover-Effekte berücksichtigt.
+- Dashboard-Stile auf den nativen Dashboard-Container begrenzt.
+
+
 ## 1.0.0-rc.25 — 25. Oktober 2026
 - Channelgruppen-Label mit grauem Hintergrund (#42474f) und heller Schrift (#f3f4f6) statt Hell-auf-Hell.
 - Gleiche Korrektur für Gruppenlabels in Server-Snapshot-Vorschauen, die dieselbe Listen-Komponente verwenden.

@@ -638,6 +638,93 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   color: #f3f4f6 !important;
 }
 
+/* RC26: dashboard-only OCB treatment. Native content, actions and discovery
+   artwork remain intact. Decorative hero uses the original local banner. */
+.tsv-dashboard-clearance {
+  background: linear-gradient(180deg,rgba(10,12,16,.9),rgba(10,12,16,.96)),url("assets/glass-4k.webp") center top / cover no-repeat !important;
+  color: #edf0f4;
+}
+.tsv-dashboard-clearance::before {
+  content: "";
+  display: block;
+  flex: 0 0 auto;
+  width: calc(100% - 32px);
+  max-width: 1600px;
+  aspect-ratio: 3 / 1;
+  margin: 20px auto 28px;
+  border-radius: 16px;
+  background: #090b0e url("assets/header.webp") center / contain no-repeat;
+  box-shadow: 0 12px 32px rgba(0,0,0,.3), inset 0 0 0 1px rgba(211,220,232,.22);
+  pointer-events: none;
+}
+.tsv-dashboard-clearance .tsv-dashboard-widget-content,
+.tsv-dashboard-clearance .ts-discovery-card {
+  background-color: #14181e !important;
+  color: #edf0f4;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px rgba(205,216,230,.16),0 8px 22px rgba(0,0,0,.2);
+}
+.tsv-dashboard-clearance .tsv-dashboard-widget-content {
+  background-image: linear-gradient(120deg,rgba(17,21,27,.94),rgba(17,21,27,.9)),url("assets/glass-4k.webp");
+  background-size: cover;
+  background-position: center;
+}
+.tsv-dashboard-clearance .ts-discovery-card--sticky,
+.tsv-dashboard-clearance .ts-start-community-banner {
+  background: linear-gradient(110deg,rgba(17,21,27,.92),rgba(30,35,43,.94)),url("assets/glass-4k.webp") center / cover no-repeat !important;
+  color: #edf0f4 !important;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px rgba(205,216,230,.26);
+}
+.tsv-dashboard-clearance .ts-widget-section-header-full-width {
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  padding-block: 12px;
+}
+.tsv-dashboard-clearance .ts-widget-section-header-full-width .title,
+.tsv-dashboard-clearance .tsv-dashboard-widget-section-title {
+  color: #edf0f4;
+  font-weight: 650;
+  letter-spacing: .03em;
+}
+.tsv-dashboard-clearance .subtitle,
+.tsv-dashboard-clearance .tsv-dashboard-widget-hero-description {
+  color: #b9c2ce;
+}
+.tsv-dashboard-clearance .ts-horizontal-separator {
+  background: linear-gradient(90deg,rgba(207,218,231,.4),rgba(207,218,231,.07)) !important;
+}
+.tsv-dashboard-clearance .server-hosting {
+  grid-template-columns: repeat(auto-fit,minmax(min(100%,300px),1fr)) !important;
+  gap: 14px;
+}
+.tsv-dashboard-clearance .server-hosting > .tsv-dashboard-widget {
+  min-width: 0 !important;
+  max-width: 100%;
+}
+.tsv-dashboard-clearance .tsv-dashboard-widget-content__text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.tsv-dashboard-clearance .server-hosting-action,
+.tsv-dashboard-clearance .ts-start-community-banner_button {
+  background: #d2dae5 !important;
+  color: #11151b !important;
+  border-radius: 8px;
+}
+.tsv-dashboard-clearance :is(button,a,[tabindex]):focus-visible {
+  outline: 2px solid #e2e8f0;
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tsv-dashboard-clearance .ts-icon-background,
+  .tsv-dashboard-clearance .ts-prototype-background-container,
+  .tsv-dashboard-clearance .tsv-dashboard-widget-hero-text {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
 /* The native advanced rows live AFTER the second section title, not inside it.
    Scope and six-row structure verified against the installed client bundle. */
 .ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div > .slider-label-min-width > label::before {
