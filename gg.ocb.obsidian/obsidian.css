@@ -686,13 +686,13 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   box-shadow: inset 0 0 0 1px rgba(205,216,230,.16),0 8px 22px rgba(0,0,0,.2);
 }
 .tsv-dashboard-clearance .tsv-dashboard-widget-content {
-  background-image: linear-gradient(120deg,rgba(17,21,27,.94),rgba(17,21,27,.9)),url("assets/glass-4k.webp");
+  background-image: linear-gradient(120deg,#11151b,#181e26);
   background-size: cover;
   background-position: center;
 }
 .tsv-dashboard-clearance .ts-discovery-card--sticky,
 .tsv-dashboard-clearance .ts-start-community-banner {
-  background: linear-gradient(110deg,rgba(17,21,27,.92),rgba(30,35,43,.94)),url("assets/glass-4k.webp") center / cover no-repeat !important;
+  background: linear-gradient(110deg,#11151b,#1e232b) !important;
   color: #edf0f4 !important;
   border-radius: 14px;
   box-shadow: inset 0 0 0 1px rgba(205,216,230,.26);
@@ -777,4 +777,32 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 }
 .ts-server-tree-wrapper .tsv-item-drag-and-drop-target-active > .tsv-item-highlight {
   border-color: #e2e8f0;
+}
+
+/* RC31: dashboard identity without relabelling native third-party actions.
+   Keep artwork in the hero/root; cards use inexpensive solid gradients. */
+.tsv-dashboard-clearance .ts-start-community-banner {
+  border-inline-start: 3px solid #aebccd;
+}
+.tsv-dashboard-clearance .ts-start-community-banner__title,
+.tsv-dashboard-clearance .ts-start-community-banner__info {
+  max-width: 65ch;
+  overflow-wrap: anywhere;
+}
+.tsv-dashboard-clearance .ts-start-community-banner_button {
+  min-height: 36px;
+  padding-inline: 16px;
+}
+@media (max-height: 800px) and (min-width: 900px) {
+  .tsv-dashboard-clearance::before {
+    max-width: 1050px;
+    max-height: 260px;
+    margin-block: 12px 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tsv-dashboard-clearance .ts-start-community-banner,
+  .tsv-dashboard-clearance .ts-discovery-card {
+    transition: none !important;
+  }
 }

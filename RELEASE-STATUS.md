@@ -1,1 +1,1 @@
-RC30: Zustandskorrekturen, portable Prüfungen und vereinfachtes Download-Paket. Details: docs/quality/RC30.md.
+RC31: Dashboard-Verfeinerung; Community-Klickziel bleibt nativ. Tests und Grenzen: docs/quality/RC31.md.
