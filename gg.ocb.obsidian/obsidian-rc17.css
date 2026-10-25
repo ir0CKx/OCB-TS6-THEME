@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.16
+/* OCB.GG Obsidian Glass 1.0.0-rc.17
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
@@ -525,3 +525,67 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   overflow-wrap: anywhere;
 }
 .ts-chat-message-system-body .ts-chat-message-system-time { white-space: nowrap; flex-shrink: 0; }
+
+/* RC17: constrain message attachments and code to their actual chat column.
+   Preserve code formatting; long code scrolls within its block. */
+.ts-chat-message-main .ts-parsed-text-content pre,
+.ts-chat-room-event-detailed .ts-chat-message-content pre {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  white-space: pre;
+  box-sizing: border-box;
+}
+.ts-chat-message-main .ts-parsed-text-content img,
+.ts-chat-room-event-detailed .ts-chat-message-content img {
+  max-width: 100%;
+  height: auto;
+}
+/* RC17: OCB navigation in both compact and expanded sidebar modes.
+   Native dimensions, hit targets, labels and semantic status colors stay intact. */
+.tsv-sidebar .tsv-body-background {
+  background: linear-gradient(180deg,rgba(10,13,17,.88),rgba(13,17,22,.94)),url("assets/glass-4k.webp") center / cover no-repeat !important;
+}
+.tsv-settings-categories {
+  background: linear-gradient(180deg,rgba(12,15,19,.94),rgba(15,19,25,.97)),url("assets/glass-4k.webp") center / cover no-repeat;
+  border-radius: 8px;
+}
+.tsv-sidebar .tsv-item-highlight,
+.tsv-settings-categories .tsv-item-highlight {
+  background: rgba(199,211,226,.14) !important;
+  box-shadow: inset 0 0 0 1px rgba(199,211,226,.12);
+}
+.tsv-sidebar .tsv-item-active-indicator,
+.tsv-settings-categories .tsv-item-active-indicator { background-color: #d5dfe9; }
+.tsv-sidebar .tsv-search-bar:focus-within {
+  box-shadow: inset 0 0 0 2px #c7d3e2;
+}
+.tsv-sidebar [tabindex]:focus-visible,
+.tsv-settings-categories [tabindex]:focus-visible {
+  outline: 2px solid #c7d3e2;
+  outline-offset: -2px;
+}
+/* RC17: the native absolutely positioned advanced toggle overlaps the
+   channel settings heading in narrow portrait/detail panels. */
+.tsv-server-info-settings > .tsv-major-section-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  box-sizing: border-box;
+}
+.tsv-server-info-settings > .tsv-major-section-title > p {
+  order: 0;
+  flex: 1 1 12rem;
+  min-width: 0;
+  width: auto;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+.tsv-server-info-settings > .tsv-major-section-title > .tsv-server-settings-advanced {
+  order: 1;
+  position: static;
+  flex: 0 1 auto;
+  max-width: 100%;
+  white-space: normal;
+}

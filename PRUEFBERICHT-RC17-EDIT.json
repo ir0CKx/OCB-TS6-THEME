@@ -1,0 +1,125 @@
+{
+  "liveClient": false,
+  "cases": [
+    {
+      "width": 260,
+      "zoom": 1,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 260,
+      "zoom": 1.25,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 260,
+      "zoom": 1.5,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 260,
+      "zoom": 2,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 295,
+      "zoom": 1,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 295,
+      "zoom": 1.25,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 295,
+      "zoom": 1.5,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 295,
+      "zoom": 2,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "zoom": 1.25,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 600,
+      "zoom": 1,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 600,
+      "zoom": 1.25,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 600,
+      "zoom": 1.5,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 600,
+      "zoom": 2,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 900,
+      "zoom": 1,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 900,
+      "zoom": 1.25,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 900,
+      "zoom": 1.5,
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 900,
+      "zoom": 2,
+      "overlap": false,
+      "overflow": false
+    }
+  ]
+}

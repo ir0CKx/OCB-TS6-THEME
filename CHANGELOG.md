@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0-rc.17 — 25. Oktober 2026
+- Live gefundene Überlappung von Channel-Einstellungen und Erweitert-Schalter bei schmalen Detailspalten behoben; 20 Regressionstests ergänzt.
+- Installer trennt Erfolg und Fehler deutlich und nennt Version, Zielordner und naechste Schritte.
+- Chat-Bilder bleiben innerhalb der Nachrichtenspalte; lange Codebloecke scrollen innerhalb ihres Blocks.
+- Breiten- und Skalierungstests fuer Hochformat, Querformat, Ultrawide und schmale Fenster erweitert. Details und Grenzen in QUALITAET-RC17.md.
+- Neue Downloads erhalten eigene Versionsnummern. RC16 bleibt unveraendert verfuegbar.
+- Explorer-Protokolle erneut geprueft: Haenger bestaetigt, verursachende Datei/Erweiterung weiterhin nicht identifiziert. Keine Windows-Einstellungen veraendert.
+
+
 ## 1.0.0-rc.16 — 25. Oktober 2026
 - Installationsanleitung überarbeitet: elf klare Schritte und eine skalierbare grafische Übersicht, im Download und auf GitHub. Erfolgsmeldung, Theme-Aktivierung und anschließendes Aufräumen erklärt. Theme und Installer unverändert.
 - Schlankes Installations-ZIP: keine zusätzlichen Testbilder, keine verschachtelten Server-Asset-Archive. Die notwendigen Theme-Grafiken bleiben erhalten.
