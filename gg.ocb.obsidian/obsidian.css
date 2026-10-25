@@ -638,6 +638,36 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   color: #f3f4f6 !important;
 }
 
+/* RC28: readable messages without clipping, line clamps or nested scrolling. */
+.ts-chat-room-event-compact .actual > .ts-chat-message-main,
+.ts-chat-room-event-detailed .ts-chat-message-content {
+  line-height: 1.5;
+  padding-block: 4px 8px;
+  box-sizing: border-box;
+}
+.ts-chat-room-event-compact .actual > .ts-chat-message-main {
+  padding-inline-end: 8px;
+}
+.ts-chat-message-main .ts-parsed-text-content,
+.ts-chat-room-event-detailed .ts-chat-message-content {
+  tab-size: 4;
+}
+.ts-chat-message-main .ts-parsed-text-content p,
+.ts-chat-room-event-detailed .ts-chat-message-content p {
+  margin-block: .4em .7em;
+}
+.ts-chat-message-main a:hover,
+.ts-chat-room-event-detailed .ts-chat-message-content a:hover {
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+.ts-chat-message-main a:focus-visible,
+.ts-chat-input-container :is(button,[tabindex]):focus-visible,
+.tsv-modal-overlay-inner :is(button,a,[tabindex]):focus-visible {
+  outline: 2px solid #d5dfe9;
+  outline-offset: -2px;
+}
+
 /* RC27: host-message dialog only; applies to every server with this theme.
    Keep the native icon box and all modal actions intact. */
 .tsv-modal-overlay-inner:has(> .ts-server-host-message-container) > svg:first-child {

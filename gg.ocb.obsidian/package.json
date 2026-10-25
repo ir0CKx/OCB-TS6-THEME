@@ -1,7 +1,7 @@
 {
-  "name": "OCB.GG - Glass & Dark Theme v1.0.0-rc.27",
+  "name": "OCB.GG - Glass & Dark Theme v1.0.0-rc.28",
   "description": "Dark client theme with silver accents and abstract glass artwork by OCB.GG. Local assets, no remote content.",
-  "version": "1.0.0-rc.27",
+  "version": "1.0.0-rc.28",
   "identifier": "gg.ocb.obsidian",
   "engines": {
     "teamspeak": 1
