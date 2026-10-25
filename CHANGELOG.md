@@ -1,6 +1,7 @@
 # Changelog
 
 ## 1.0.0-rc.16 — 25. Oktober 2026
+- Installationsanleitung überarbeitet: elf klare Schritte und eine skalierbare grafische Übersicht, im Download und auf GitHub. Erfolgsmeldung, Theme-Aktivierung und anschließendes Aufräumen erklärt. Theme und Installer unverändert.
 - Schlankes Installations-ZIP: keine zusätzlichen Testbilder, keine verschachtelten Server-Asset-Archive. Die notwendigen Theme-Grafiken bleiben erhalten.
 - Installer zeigt vorhandene und neue Version an und prüft vor dem Kopieren die Paket-Prüfsummen.
 - Installation stoppt vor Dateiänderungen, solange TeamSpeak 6 läuft.

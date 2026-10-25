@@ -7,17 +7,24 @@ TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, 
 [**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB-Obsidian-Glass-1.0.0-rc.16.zip)
 
 ## Installation unter Windows
-1. Das verlinkte ZIP herunterladen und vollständig entpacken.
-2. TeamSpeak 6 vollständig beenden.
-3. `INSTALL-WINDOWS.cmd` starten. Keine Administratorrechte erforderlich.
-4. TeamSpeak öffnen und unter **Darstellung / Appearance → Benutzer-Theme / User Theme** die Theme-Liste aktualisieren.
-5. **OCB Obsidian Glass RC16** auswählen.
 
-Bei einem Update zunächst das Standardtheme auswählen und anschließend RC16 aktivieren. Der Installer sichert die bisherige OCB-Version. Deinstallation: anderes Theme aktivieren, Client schließen, `UNINSTALL-WINDOWS.cmd` starten.
+![OCB Obsidian Glass – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
 
-Manuell nur den Ordner **gg.ocb.obsidian** nach `%APPDATA%\TeamSpeak\Default\extensions` kopieren. Nicht den gesamten Repository-Ordner als Erweiterung ablegen. Der Ordnername muss exakt zur Kennung passen.
+1. **TeamSpeak 6 vollständig schließen**, auch unten rechts im Infobereich der Windows-Taskleiste.
+2. Die heruntergeladene **ZIP-Datei vollständig entpacken** (Rechtsklick → Alle extrahieren).
+3. Den **entpackten Ordner öffnen**. Nicht direkt aus der ZIP heraus installieren.
+4. **`INSTALL-WINDOWS.cmd` doppelt anklicken.** Administratorrechte sind nicht erforderlich.
+5. Auf die Meldung **„Installiert.“** warten. Danach eine beliebige Taste drücken, um das schwarze Fenster zu schließen. Das Theme wurde bereits vorher in den TeamSpeak-Erweiterungsordner kopiert. **Bei einer Fehlermeldung ist die Installation nicht erfolgreich abgeschlossen.**
+6. Den entpackten Ordner schließen.
+7. **TeamSpeak 6 starten.**
+8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
+9. **OCB Obsidian Glass RC16** anklicken und aktivieren.
+10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
+11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
-[Ausführliche Anleitung](INSTALLATION-DE.md) · [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN-DE.md) · [Änderungen](CHANGELOG.md)
+**Bei Updates:** Der Installer sichert die bisherige OCB-Version automatisch. Falls noch das alte Design angezeigt wird, kurz das Standardtheme und anschließend **OCB Obsidian Glass RC16** auswählen.
+
+[Ausführliche Anleitung und Fehlerbehebung](INSTALLATION-DE.md) · [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN-DE.md) · [Änderungen](CHANGELOG.md)
 
 ## Vorschau
 Die folgende Abbildung ist eine **statische Layout-Testansicht**, kein Live-Screenshot. Die tatsächliche Anordnung hängt von Client-Version, Fenstergröße, Server und Skalierung ab.

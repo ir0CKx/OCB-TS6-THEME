@@ -1,11 +1,20 @@
 # Installation und Wiederherstellung
 
-## Windows
-1. Das gesamte ZIP in einen eigenen Ordner entpacken.
-2. TeamSpeak schließen.
-3. Optional VERIFY-WINDOWS.cmd starten und die Prüfsummen kontrollieren.
-4. INSTALL-WINDOWS.cmd starten. Keine Administratorrechte erforderlich.
-5. TeamSpeak öffnen und unter Darstellung / Appearance das User Theme aktualisieren und OCB Obsidian Glass RC16 auswählen. Bezeichnungen können je nach Client-Version abweichen.
+## Windows – Schritt für Schritt
+
+![Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
+
+1. **TeamSpeak 6 vollständig schließen**, auch unten rechts im Infobereich der Windows-Taskleiste.
+2. Die heruntergeladene **ZIP-Datei vollständig entpacken** (Rechtsklick → Alle extrahieren).
+3. Den **entpackten Ordner öffnen**. Nicht direkt aus der ZIP heraus installieren.
+4. **`INSTALL-WINDOWS.cmd` doppelt anklicken.** Administratorrechte sind nicht erforderlich.
+5. Auf die Meldung **„Installiert.“** warten. Danach eine beliebige Taste drücken, um das schwarze Fenster zu schließen. Das Theme wurde bereits vorher in den TeamSpeak-Erweiterungsordner kopiert. **Bei einer Fehlermeldung ist die Installation nicht erfolgreich abgeschlossen.**
+6. Den entpackten Ordner schließen.
+7. **TeamSpeak 6 starten.**
+8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
+9. **OCB Obsidian Glass RC16** anklicken und aktivieren.
+10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
+11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
 Standardziel: %APPDATA%\TeamSpeak\Default\extensions\gg.ocb.obsidian
 Für andere Profile den Ordner gg.ocb.obsidian manuell in deren extensions-Verzeichnis kopieren. package.json liegt direkt im Theme-Ordner.
