@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0-rc.16 — 25. Oktober 2026
+- Schlankes Installations-ZIP: keine zusätzlichen Testbilder, keine verschachtelten Server-Asset-Archive. Die notwendigen Theme-Grafiken bleiben erhalten.
+- Installer zeigt vorhandene und neue Version an und prüft vor dem Kopieren die Paket-Prüfsummen.
+- Installation stoppt vor Dateiänderungen, solange TeamSpeak 6 läuft.
+- Layout, Chatumbrüche und Grafiken entsprechen RC15; keine weiteren Layoutänderungen.
+- Explorer-Hänger untersucht: RC15-ZIP und enthaltene Bilder technisch lesbar. Das Abschalten der Explorer-Vorschauen half beim Nutzer. Der konkrete Vorschau-Handler bzw. Auslöser ist weiterhin nicht ermittelt; RC16 ist keine bestätigte Behebung dieses Windows-Problems.
+
 ## 1.0.0-rc.15 — 25. Oktober 2026
 - Kompakter Chat: Nachrichten wechseln bei wenig Platz unter Zeitstempel/Nutzernamen, statt in eine schmale Restspalte gedrückt zu werden.
 - Lange URLs dürfen umbrechen; normaler Text wird bevorzugt an Wortgrenzen umgebrochen.
@@ -9,7 +16,7 @@
 
 Änderungen am OCB.GG Obsidian Glass Theme für TeamSpeak 6, neueste Version zuerst.
 
-**Aktuell: RC15.** Nutzer von RC12/RC13 sollten wegen der fehlerhaften Kartenhöhen auf RC14 aktualisieren.
+**Aktuell: RC16.** Nutzer von RC12/RC13 sollten wegen der fehlerhaften Kartenhöhen auf RC14 aktualisieren.
 
 ## 1.0.0-rc.14 — 22. Oktober 2026
 - Fehler in der Nutzeransicht behoben: Native Karten behielten bei vertikaler Anordnung ihre für horizontale Anordnung gedachte Flex-Basis von 100 % und ihr Wachstum. Dies konnte überhohe Karten und große Leerflächen verursachen.

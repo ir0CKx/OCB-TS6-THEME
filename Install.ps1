@@ -7,11 +7,21 @@ if ($meta.identifier -ne $identifier) { throw 'Ungueltige Paketkennung.' }
 $root = [IO.Path]::GetFullPath($ExtensionsRoot)
 $target = [IO.Path]::GetFullPath((Join-Path $root $identifier))
 if ([IO.Path]::GetDirectoryName($target) -ne $root.TrimEnd('\')) { throw 'Zielpfadpruefung fehlgeschlagen.' }
-foreach ($rel in @('package.json','obsidian-rc15.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
+foreach ($rel in @('package.json','obsidian-rc16.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
  if (-not (Test-Path -LiteralPath (Join-Path $source $rel) -PathType Leaf)) { throw "Datei fehlt: $rel" }
 }
 foreach ($asset in Get-ChildItem -LiteralPath $source -Recurse -File) {
  if ($asset.Length -gt 2097152) { throw "TS6 limit exceeded (2 MiB): $($asset.Name)" }
+}
+Write-Output ("Neue Version: " + $meta.version)
+$installedManifest = Join-Path $target 'package.json'
+if (Test-Path -LiteralPath $installedManifest) {
+ $installedMeta = Get-Content -LiteralPath $installedManifest -Raw | ConvertFrom-Json
+ Write-Output ("Installierte Version: " + $installedMeta.version)
+} else { Write-Output 'Noch kein OCB-Theme an diesem Ziel installiert.' }
+& (Join-Path $PSScriptRoot 'Verify-Package.ps1')
+if (-not $DryRun -and (Get-Process -Name TeamSpeak -ErrorAction SilentlyContinue)) {
+ throw 'TeamSpeak 6 ist noch geoeffnet. Bitte vollstaendig beenden und den Installer erneut starten. Es wurde nichts ersetzt.'
 }
 if ($DryRun) { Write-Output "Geprueft. Installationsziel: $target"; exit 0 }
 New-Item -ItemType Directory -Path $root -Force | Out-Null

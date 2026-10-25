@@ -1,1 +1,1 @@
-RC15: Quellen und Download fuer die Veroeffentlichung vorbereitet. RC10 live bestaetigt; neue RC15-Grafik und Icon-Regeln in Komponenten-/Layouttests geprueft. Vollstaendige Live-Abnahme bleibt offen. Nutzungsbedingungen in LICENSE.txt.
+RC16: Quellen und Download fuer die Veroeffentlichung vorbereitet. RC10 live bestaetigt; neue RC16-Grafik und Icon-Regeln in Komponenten-/Layouttests geprueft. Vollstaendige Live-Abnahme bleibt offen. Nutzungsbedingungen in LICENSE.txt.
