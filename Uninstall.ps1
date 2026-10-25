@@ -7,6 +7,9 @@ if (-not (Test-Path -LiteralPath $target)) { Write-Output 'OCB-Theme nicht insta
 $meta = Get-Content -LiteralPath (Join-Path $target 'package.json') -Raw | ConvertFrom-Json
 if ($meta.identifier -ne 'gg.ocb.obsidian') { throw 'Unbekannter Ordnerinhalt. Abbruch.' }
 if ($DryRun) { Write-Output "Geprueft. Nur dieses Theme wird deaktiviert: $target"; exit 0 }
+if (Get-Process -Name TeamSpeak -ErrorAction SilentlyContinue) {
+ throw 'TeamSpeak 6 ist noch geoeffnet. Bitte vollstaendig beenden. Es wurde nichts entfernt.'
+}
 $backupRoot = Join-Path ([IO.Directory]::GetParent($root).FullName) 'ocb-theme-backups'
 New-Item -ItemType Directory -Path $backupRoot -Force | Out-Null
 $backup = Join-Path $backupRoot ('gg.ocb.obsidian-disabled-' + [DateTime]::Now.ToString('yyyyMMdd-HHmmss-fff'))

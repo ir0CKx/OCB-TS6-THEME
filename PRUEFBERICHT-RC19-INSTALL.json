@@ -1,0 +1,14 @@
+{
+  "results": [
+    "extra theme file rejected",
+    "duplicate checksum rejected",
+    "running client install blocked",
+    "clean install succeeded",
+    "update removes old files from active theme and backs them up",
+    "failed final move restores previous version",
+    "failed install leaves no staging folder",
+    "running client uninstall blocked",
+    "uninstall archives theme"
+  ],
+  "liveClient": false
+}

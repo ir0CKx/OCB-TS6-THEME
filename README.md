@@ -1,14 +1,14 @@
-# OCB.GG Obsidian Glass
+# OCB.GG - Glass & Dark Theme v1.0.0-rc.19
 
 TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, silberne Akzente, originaler OCB-Kopfbanner und ein durchgehendes Glas-/Wellenmotiv hinter dem Kanalbaum.
 
-**Aktuelle Version: 1.0.0-rc.18** · Windows-Installer inklusive.
+**Aktuelle Version: 1.0.0-rc.19** · Windows-Installer inklusive.
 
-[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB-Obsidian-Glass-1.0.0-rc.18.zip)
+[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.19.zip)
 
 ## Installation unter Windows
 
-![OCB Obsidian Glass – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
+![OCB.GG - Glass & Dark Theme v1.0.0-rc.19 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
 
 1. **TeamSpeak 6 vollständig schließen**, auch unten rechts im Infobereich der Windows-Taskleiste.
 2. Die heruntergeladene **ZIP-Datei vollständig entpacken** (Rechtsklick → Alle extrahieren).
@@ -18,11 +18,11 @@ TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, 
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG Obsidian Glass**, danach darunter **OCB Obsidian Glass RC18** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.19**, danach darunter **OCB.GG - Glass & Dark Theme v1.0.0-rc.19** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
-**Bei Updates:** Der Installer sichert die bisherige OCB-Version automatisch. Falls noch das alte Design angezeigt wird, kurz das Standardtheme und anschließend **OCB Obsidian Glass RC18** auswählen.
+**Bei Updates:** Der Installer sichert die bisherige OCB-Version automatisch. Falls noch das alte Design angezeigt wird, kurz das Standardtheme und anschließend **OCB.GG - Glass & Dark Theme v1.0.0-rc.19** auswählen.
 
 [Ausführliche Anleitung und Fehlerbehebung](INSTALLATION-DE.md) · [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN-DE.md) · [Änderungen](CHANGELOG.md)
 
@@ -38,7 +38,7 @@ Die folgende Abbildung ist eine **statische Layout-Testansicht**, kein Live-Scre
 - Generische Servericons in der linken Navigation werden durch OCB-Bigcircle ersetzt; individuelle Logos und Statusanzeigen bleiben erhalten.
 - Originaler OCB-Kopfbanner und Bigcircle; native Kanalnamen, Nutzerbilder und Gruppenicons bleiben erhalten.
 
-**RC18 blendet serverseitige Kanalbildbanner lokal aus**, damit das zusammenhängende Wellenmotiv sichtbar ist. Darin eingebettete Texte oder Logos werden ebenfalls ausgeblendet. Die Serverdateien werden nicht verändert; mit dem Standardtheme erscheinen sie wieder. Das optionale Server-Asset-ZIP ist separat enthalten.
+**Das Theme blendet serverseitige Kanalbildbanner lokal aus**, damit das zusammenhängende Wellenmotiv sichtbar ist. Darin eingebettete Texte oder Logos werden ebenfalls ausgeblendet. Die Serverdateien werden nicht verändert; mit dem Standardtheme erscheinen sie wieder. Das optionale Server-Asset-ZIP ist separat enthalten.
 
 Sprachchat, Bildschirmfreigabe und Serverrechte werden von TeamSpeak bereitgestellt. Das Theme fügt diese Funktionen nicht hinzu und ändert keine Berechtigungen.
 
@@ -56,18 +56,23 @@ Fehler bitte über [GitHub Issues](https://github.com/ir0CKx/OCB-TS6-THEME/issue
 
 Eigenständiges Community-Theme, kein offizielles Produkt von TeamSpeak.
 
-## Nutzeransicht ab RC18
+## Nutzeransicht
 Die bisherigen silbernen TS6-Akzente bleiben erhalten. Reihenfolge: Nutzerbild, verfügbare Kontaktaktion, Nutzertag, gemeinsame Karte für Verbindung und Standort, Gruppen, Abzeichen, weitere native Statusinformationen, Identität. Der vorhandene UID-Eintrag steht am Ende des Fußbereichs. Client-ID und Datenbank-ID bleiben im nativen UID-Tooltip verfügbar, nicht als neue Textzeilen. Gruppen sind in TS6 eine gemeinsame Karte; die interne Reihenfolge bleibt nativ. Das Original-Bigcircle erscheint als 44-Pixel-Wasserzeichen mit 24 % Deckkraft am unteren rechten Ende des Nutzerinhalts und blockiert keine Klicks.
 
 Dies ist eine CSS-Anpassung, keine Übernahme der TS3-Templates: fehlende Nutzerdaten werden nicht abgerufen, Status-/Sprachberechtigungsanzeigen bleiben funktionsfähig. `[cspacer]` wird nicht durch Textersetzung gefiltert. Die Selektoren wurden mit der lokal installierten TS6-Oberfläche abgeglichen; die Layoutprüfung nutzt eine statische Testansicht, keinen verbundenen Live-Client.
 
-## RC18: kleineres Paket und Installationsprüfung
+## Paket und Installationsprüfung
 Der Download enthält nur Theme, Installationshilfen und notwendige Anleitungen. Testbilder und optionale Server-Assets bleiben außerhalb des Installations-ZIPs. Der Installer zeigt die Versionsnummern, prüft die mitgelieferten SHA-256-Prüfsummen und bricht vor Änderungen ab, wenn TeamSpeak 6 läuft. Ein erfolgreicher Prüfsummenvergleich bestätigt Integrität, nicht eine Herausgebersignatur.
 
-Die gemeldeten Windows-Explorer-Hänger sind nicht eindeutig einer Datei zugeordnet. RC15 ließ sich als Archiv einschließlich seiner Bilder fehlerfrei prüfen. RC18 reduziert die zusätzlichen Inhalte; eine Behebung des Explorer-Problems ist dadurch noch nicht nachgewiesen. Die vorhandene Vorschau-Einstellung wird vom Installer nicht geändert.
+Die gemeldeten Windows-Explorer-Hänger sind nicht eindeutig einer Datei zugeordnet. RC15 ließ sich als Archiv einschließlich seiner Bilder fehlerfrei prüfen. Das Installationspaket enthält keine zusätzlichen Testbilder; eine Behebung des Explorer-Problems ist dadurch noch nicht nachgewiesen. Die vorhandene Vorschau-Einstellung wird vom Installer nicht geändert.
 
-## RC18: Navigation und verschiedene Bildschirmformate
-OCB-Navigation mit dezenter Glastextur und silberner Auswahl, begrenzte Chatbilder und scrollbar dargestellte lange Codezeilen. 184 Komponentenfälle für verschiedene Spaltenbreiten und Skalierungen erfolgreich geprüft. Das ersetzt keine vollständige Live-Prüfung auf allen Monitoren. [Prüfstand und offene Punkte](QUALITAET-RC17.md).
+## Navigation und verschiedene Bildschirmformate
+OCB-Navigation mit dezenter Glastextur und silberner Auswahl, begrenzte Chatbilder und scrollbar dargestellte lange Codezeilen. 184 Komponentenfälle für verschiedene Spaltenbreiten und Skalierungen erfolgreich geprüft. Das ersetzt keine vollständige Live-Prüfung auf allen Monitoren. [Aktueller Prüfstand und offene Punkte](QUALITAET-RC19.md).
 
-## RC18: Bildschirmfreigabe
+## Bildschirmfreigabe
 Dekorative Emojis bei Voreinstellung, Anwendungsaudio und Privatsphäre. 36 zusätzliche Komponentenfälle bestanden. Direkt im maximierten TS6-Fenster (1080 × 1874 erfasste Fensterpixel) visuell geprüft: Beschriftungen und Bedienelemente erreichbar, keine beobachteten Überlappungen. Der RC17-Teststream kam laut Empfänger mit sauberem Bild und Bewegung an.
+
+## RC19: Bereinigung und Updates
+Stabiler CSS-Dateiname für weitere Updates; beim Wechsel von RC18 einmal neu auswählen. Paketprüfung erkennt zusätzliche Theme-Dateien. Historische Testartefakte liegen in [docs/archive](docs/archive/README.md). Veröffentlichte Downloads bleiben als Rückfallversionen erhalten.
+
+RC19: 220 Komponentenfälle, neun Installer-Szenarien und Hintergrundvergleich bei drei Pixeldichten bestanden. [Prüfbericht](QUALITAET-RC19.md).

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0-rc.19 — 25. Oktober 2026
+- Überholte Hintergrund- und HiDPI-Regeln entfernt; wirksames Layout bleibt erhalten.
+- Neuer Name: OCB.GG - Glass & Dark Theme v1.0.0-rc.19. Stabile CSS-Datei `obsidian.css` für kommende Updates. Beim Wechsel von RC18 einmal neu auswählen; künftige Auswahl-Erhaltung hängt zusätzlich vom Client ab.
+- Zusätzliche oder doppelt aufgeführte Dateien im Theme werden bei der Paketprüfung abgewiesen.
+- Installer räumt seinen eigenen Zwischenordner auch bei Fehlern auf; Deinstallation blockiert bei laufendem TeamSpeak.
+- Historische Testartefakte in docs/archive verschoben. Veröffentlichte Downloads und vorhandene Sicherungen bleiben erhalten.
+
+
 ## 1.0.0-rc.18 — 25. Oktober 2026
 - Dezente Emojis bei den Grundeinstellungen der Bildschirmfreigabe: 🎛️ Voreinstellung, 🔊 Anwendungsaudio, 🛡️ Privatsphäre.
 - Vollbildprüfung im maximierten TS6-Fenster erfolgreich; 36 zusätzliche Komponentenfälle bestanden.

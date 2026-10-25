@@ -1,1 +1,1 @@
-RC18: dekorative Emojis in der Bildschirmfreigabe. RC17-Streamempfang mit Bild und Bewegung vom Nutzer bestätigt. Explorer-Entpacken geprüft; intermittierender Windows-Startabsturz nicht behoben. Layouttests sind keine vollständige Live-Abnahme aller Geräte.
+RC19: Bereinigung und robustere Paketverwaltung. RC18-Freigabedialog live im maximierten Fenster geprüft, RC17-Empfang extern bestätigt. Kein Nachweis einer dauerhaften Behebung des Windows-Explorer-Startabsturzes.

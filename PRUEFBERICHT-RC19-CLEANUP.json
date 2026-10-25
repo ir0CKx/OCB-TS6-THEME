@@ -1,0 +1,18 @@
+{
+  "liveClient": false,
+  "cases": [
+    {
+      "dpr": 1,
+      "equivalent": true
+    },
+    {
+      "dpr": 2,
+      "equivalent": true
+    },
+    {
+      "dpr": 3,
+      "equivalent": true
+    }
+  ],
+  "guideTextWithinCanvas": true
+}
