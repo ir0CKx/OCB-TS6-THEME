@@ -631,6 +631,13 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   -webkit-box-decoration-break: clone;
 }
 
+/* RC25: neutral group labels, including snapshot group previews using
+   the same list component. Do not recolour notification/status badges. */
+.tsv-client-info-groups .tsv-item-badge-count {
+  background: #42474f !important;
+  color: #f3f4f6 !important;
+}
+
 /* The native advanced rows live AFTER the second section title, not inside it.
    Scope and six-row structure verified against the installed client bundle. */
 .ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div > .slider-label-min-width > label::before {

@@ -1,0 +1,78 @@
+{
+  "liveClient": false,
+  "contrast": 8.496556479763719,
+  "cases": [
+    {
+      "width": 260,
+      "zoom": 1,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 260,
+      "zoom": 1.5,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 260,
+      "zoom": 2,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 680,
+      "zoom": 1,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.5,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    },
+    {
+      "width": 680,
+      "zoom": 2,
+      "bg": "rgb(66, 71, 79)",
+      "fg": "rgb(243, 244, 246)",
+      "notification": "rgb(199, 211, 226)",
+      "action": true
+    }
+  ]
+}

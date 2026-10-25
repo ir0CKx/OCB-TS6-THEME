@@ -1,1 +1,1 @@
-RC24: Vereinheitlichte Anleitung und Fehlersuche für die OCB-Installationsdateien.
+RC25: Graue, kontrastreiche Gruppenlabels in Nutzeransicht und Gruppenvorschauen.

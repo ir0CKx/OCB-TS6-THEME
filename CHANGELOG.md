@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.25 — 25. Oktober 2026
+- Channelgruppen-Label mit grauem Hintergrund (#42474f) und heller Schrift (#f3f4f6) statt Hell-auf-Hell.
+- Gleiche Korrektur für Gruppenlabels in Server-Snapshot-Vorschauen, die dieselbe Listen-Komponente verwenden.
+- Benachrichtigungs- und Status-Badges bleiben unverändert. Dashboard nicht verändert.
+
+
 ## 1.0.0-rc.24 — 25. Oktober 2026
 - Installationsanleitung und Grafik nennen die aktuellen OCB-Starter und erklären ausgeblendete `.cmd`-Endungen.
 - Erfolgsmeldung und Auswahl von Paket und Theme-Variante vereinheitlicht.
