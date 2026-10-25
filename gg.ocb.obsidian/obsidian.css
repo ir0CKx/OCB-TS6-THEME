@@ -558,17 +558,17 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   white-space: normal;
 }
 
-/* Stream decorations are deliberately neutral: labels and native icons carry
-   meaning. No nth-child coupling to optional rows or future client updates. */
-.ts-setup-stream .setup-stream__settings .slider-label-min-width > label::before {
-  content: "⚙";
-  content: "⚙" / "";
-  display: inline-block;
-  width: 1.25em;
-  margin-inline-end: .35em;
-  color: #bbc2cc;
-  pointer-events: none;
+/* Basic streaming icons use control signatures, not row positions.
+   Unknown/advanced rows retain native labels without misleading decoration. */
+.ts-setup-stream .setup-stream__settings .setup-stream__settings-section:has(.app-audio-toggle-group) > div:has(.responsive-collapsed):not(:has(.app-audio-toggle-group,.tsv-segmented-control-icon-white)) > .slider-label-min-width > label::before,
+.ts-setup-stream .setup-stream__settings .setup-stream__settings-section:has(.app-audio-toggle-group) > div:has(.app-audio-toggle-group) > .slider-label-min-width > label::before,
+.ts-setup-stream .setup-stream__settings .setup-stream__settings-section:has(.app-audio-toggle-group) > div:has(.tsv-segmented-control-icon-white) > .slider-label-min-width > label::before {
+  display: inline-block; width: 1.25em; margin-inline-end: .35em;
+  font-family: "Segoe UI Emoji", sans-serif; pointer-events: none;
 }
+.ts-setup-stream .setup-stream__settings .setup-stream__settings-section:has(.app-audio-toggle-group) > div:has(.responsive-collapsed):not(:has(.app-audio-toggle-group,.tsv-segmented-control-icon-white)) > .slider-label-min-width > label::before { content: "🎛️"; content: "🎛️" / ""; }
+.ts-setup-stream .setup-stream__settings .setup-stream__settings-section:has(.app-audio-toggle-group) > div:has(.app-audio-toggle-group) > .slider-label-min-width > label::before { content: "🔊"; content: "🔊" / ""; }
+.ts-setup-stream .setup-stream__settings .setup-stream__settings-section:has(.app-audio-toggle-group) > div:has(.tsv-segmented-control-icon-white) > .slider-label-min-width > label::before { content: "🛡️"; content: "🛡️" / ""; }
 
 /* RC22: native day separators, including compact legacy server chat. */
 .ts-chat-message-main .ts-chat-message-content-emoji,

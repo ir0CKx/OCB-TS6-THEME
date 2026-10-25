@@ -11,5 +11,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/build.py
+      - run: python tests/package.py
       - shell: pwsh
         run: ./tests/installer.ps1

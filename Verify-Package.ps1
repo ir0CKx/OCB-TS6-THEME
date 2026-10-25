@@ -3,7 +3,7 @@ $root = [IO.Path]::GetFullPath($PSScriptRoot).TrimEnd('\')
 if ((Split-Path $root -Leaf) -eq 'Daten') { $root = Split-Path $root -Parent }
 $count = 0
 $listed = @{}
-foreach ($line in Get-Content -LiteralPath (Join-Path $root 'SHA256SUMS.txt')) {
+foreach ($line in Get-Content -LiteralPath (Join-Path $PSScriptRoot 'SHA256SUMS.txt')) {
  if (-not $line.Trim()) { continue }
  if ($line -notmatch '^([a-fA-F0-9]{64})  (.+)$') { throw 'Invalid checksum entry.' }
  $expected = $Matches[1]

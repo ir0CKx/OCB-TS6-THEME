@@ -10,15 +10,15 @@ def build():
         stage = Path(tmp); data = stage/'Daten'; data.mkdir()
         guide = stage/'Anleitung'; guide.mkdir()
         shutil.copytree(ROOT/'gg.ocb.obsidian', data/'gg.ocb.obsidian')
-        for name in ['Install.ps1','Uninstall.ps1','Diagnose.ps1','Verify-Package.ps1']:
+        for name in ['Install.ps1','Uninstall.ps1','Verify-Package.ps1']:
             shutil.copy2(ROOT/name,data/name)
-        for action in ['INSTALL','UNINSTALL','DIAGNOSE']:
+        for action in ['INSTALL','UNINSTALL']:
             name=action+' OCB.GG DARK THEME.cmd'; shutil.copy2(ROOT/name,stage/name)
-        for name in ['INSTALLATION-DE.md','INSTALLATION-UEBERSICHT.svg','LICENSE.txt','NUTZUNGSBEDINGUNGEN-DE.md','CHANGELOG.md']:
+        for name in ['INSTALLATION-UEBERSICHT.svg','LICENSE.txt','NUTZUNGSBEDINGUNGEN-DE.md']:
             shutil.copy2(ROOT/name,guide/name)
-        shutil.copy2(ROOT/'docs/START HIER.html',stage/'START HIER.html')
+        shutil.copy2(ROOT/'docs/HOW TO USE.html',stage/'HOW TO USE.html')
         files=sorted(p for p in stage.rglob('*') if p.is_file())
-        (stage/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.relative_to(stage).as_posix()+'\n' for p in files),encoding='utf-8')
+        (data/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.relative_to(stage).as_posix()+'\n' for p in files),encoding='utf-8')
         assert all(p.stat().st_size<=2097152 for p in (data/'gg.ocb.obsidian').rglob('*') if p.is_file())
         with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
             for p in sorted(stage.rglob('*')):

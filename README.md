@@ -1,25 +1,24 @@
-# OCB.GG - Glass & Dark Theme v1.0.0-rc.31
+# OCB.GG - Glass & Dark Theme v1.0.0-rc.32
 
 ![OCB.GG Glass & Dark Theme – Designvorschau](docs/media/OCB-GitHub-Social-Preview.jpg)
 
 TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, silberne Akzente, originaler OCB-Kopfbanner und ein durchgehendes Glas-/Wellenmotiv hinter dem Kanalbaum.
 
-**Aktuelle Version: 1.0.0-rc.31** · Windows-Installer inklusive.
+**Aktuelle Version: 1.0.0-rc.32** · Windows-Installer inklusive.
 
-[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.31.zip)
+[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.32.zip)
 
 ## Download-Inhalt
 
-- **START HIER.html** – bebilderte Offline-Anleitung im Browser.
+- **HOW TO USE.html** – bebilderte Offline-Anleitung im Browser.
 - **INSTALL OCB.GG DARK THEME.cmd** – installieren oder aktualisieren.
-- **DIAGNOSE OCB.GG DARK THEME.cmd** – Probleme prüfen, ohne Änderungen.
 - **UNINSTALL OCB.GG DARK THEME.cmd** – installierte Kopie sichern und entfernen.
-- **Anleitung/** – Details, Nutzungsbedingungen und Änderungen.
+- **Anleitung/** – grafische Anleitung und Nutzungsbedingungen.
 - **Daten/** – benötigte Hilfsdateien; zusammenlassen.
 
 ## Installation unter Windows
 
-![OCB.GG - Glass & Dark Theme v1.0.0-rc.31 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
+![OCB.GG - Glass & Dark Theme v1.0.0-rc.32 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
 
 1. **TeamSpeak 6 vollständig schließen**, auch unten rechts im Infobereich der Windows-Taskleiste.
 2. Die heruntergeladene **ZIP-Datei vollständig entpacken** (Rechtsklick → Alle extrahieren).
@@ -29,7 +28,7 @@ TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, 
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.31**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.32**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
@@ -62,7 +61,7 @@ Sprachchat, Bildschirmfreigabe und Serverrechte werden von TeamSpeak bereitgeste
 
 ## Qualität und Teststand
 
-RC31: [Aktueller Prüfbericht](docs/quality/RC31.md). Bei Installationsproblemen `DIAGNOSE OCB.GG DARK THEME.cmd` im entpackten Paket starten.
+RC32: [Aktueller Prüfbericht](docs/quality/RC32.md). Bei Installationsproblemen die angezeigte Fehlermeldung und den Zielpfad prüfen.
 
 Theme-Erkennung wurde im Client bestätigt; die RC10-Gestaltung wurde vom Auftraggeber akzeptiert; RC18 wurde im Hochformat stichprobenartig live geprüft; vollständige Live-Abdeckung steht aus. Automatische Prüfungen umfassen Manifest, lokale Dateien, CSS, ausgewählte Komponenten, Skalierungen und die TS6-Grenze von **2 MiB je Erweiterungsdatei**. Der Originalbanner bleibt pixelidentisch verlustfrei gespeichert. Die neue Wellentextur ist ein **hochskalierter 4K-Export (3840 × 2160)** aus einer KI-generierten Quelle mit 1672 × 941 Pixeln, kein natives 4K. WebP-Qualität 96, 1.254.124 Bytes. Der Export schafft keine zusätzlichen nativen Details.
 
@@ -102,4 +101,4 @@ RC19: 220 Komponentenfälle, neun Installer-Szenarien und Hintergrundvergleich b
 [Build und Tests](docs/development/README.md). Der herunterladbare Release enthält keine Entwicklertests oder alten Vorschauen. Historische Releases bleiben verfügbar.
 
 ### Dashboard-Links
-Die native Community-Kachel führt zur TeamSpeak-Community-Seite. Ein CSS-Theme kann diesen fest programmierten Klick nicht auf OCB.GG umleiten. START HIER.html enthält einen echten OCB.GG-Link.
+Die native Community-Kachel führt zur TeamSpeak-Community-Seite. Ein CSS-Theme kann diesen fest programmierten Klick nicht auf OCB.GG umleiten. HOW TO USE.html enthält einen echten OCB.GG-Link.

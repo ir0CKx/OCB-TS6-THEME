@@ -15,10 +15,6 @@ New-Item -ItemType Directory -Path $missing | Out-Null
 Copy-Item -LiteralPath (Join-Path $package 'Install.ps1') -Destination $missing
 try { & (Join-Path $missing 'Install.ps1') -ExtensionsRoot $root; throw 'Incomplete package accepted' }
 catch { if ($_.Exception.Message -notmatch 'Alle extrahieren') { throw }; $results += 'incomplete extraction gives actionable error' }
-$diag = & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $package 'Diagnose.ps1') -ExtensionsRoot $root 2>&1
-if ($LASTEXITCODE -ne 0 -or (Test-Path $root) -or (($diag -join ' ') -notmatch 'kein OCB-Theme')) { throw 'Read-only missing-profile diagnosis failed' }
-$results += 'diagnosis reports missing profile without creating it'
-
 function Expect-Failure($label, $action, $pattern) {
  try { & $action; throw "Expected failure missing: $label" }
  catch { if ($_.Exception.Message -notmatch $pattern) { throw }; $script:results += $label }
@@ -28,7 +24,7 @@ $extra = Join-Path $package 'gg.ocb.obsidian/stale.css'
 Set-Content -LiteralPath $extra -Value 'old theme'
 Expect-Failure 'extra theme file rejected' { & (Join-Path $package 'Verify-Package.ps1') } 'Unexpected theme file'
 Remove-Item -LiteralPath $extra
-$sum = Join-Path $bundle 'SHA256SUMS.txt'; $original = [IO.File]::ReadAllText($sum)
+$sum = Join-Path $package 'SHA256SUMS.txt'; $original = [IO.File]::ReadAllText($sum)
 Add-Content -LiteralPath $sum -Value (($original -split '\r?\n')[0])
 Expect-Failure 'duplicate checksum rejected' { & (Join-Path $package 'Verify-Package.ps1') } 'Duplicate checksum'
 [IO.File]::WriteAllText($sum,$original,[Text.UTF8Encoding]::new($false))
