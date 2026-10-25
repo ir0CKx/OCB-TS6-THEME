@@ -1,16 +1,16 @@
-# OCB.GG - Glass & Dark Theme v1.0.0-rc.28
+# OCB.GG - Glass & Dark Theme v1.0.0-rc.29
 
 ![OCB.GG Glass & Dark Theme – Designvorschau](docs/media/OCB-GitHub-Social-Preview.jpg)
 
 TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, silberne Akzente, originaler OCB-Kopfbanner und ein durchgehendes Glas-/Wellenmotiv hinter dem Kanalbaum.
 
-**Aktuelle Version: 1.0.0-rc.28** · Windows-Installer inklusive.
+**Aktuelle Version: 1.0.0-rc.29** · Windows-Installer inklusive.
 
-[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.28.zip)
+[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.29.zip)
 
 ## Installation unter Windows
 
-![OCB.GG - Glass & Dark Theme v1.0.0-rc.28 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
+![OCB.GG - Glass & Dark Theme v1.0.0-rc.29 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
 
 1. **TeamSpeak 6 vollständig schließen**, auch unten rechts im Infobereich der Windows-Taskleiste.
 2. Die heruntergeladene **ZIP-Datei vollständig entpacken** (Rechtsklick → Alle extrahieren).
@@ -20,7 +20,7 @@ TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, 
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.28**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.29**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
@@ -52,6 +52,9 @@ Die folgende Abbildung ist eine **statische Layout-Testansicht**, kein Live-Scre
 Sprachchat, Bildschirmfreigabe und Serverrechte werden von TeamSpeak bereitgestellt. Das Theme fügt diese Funktionen nicht hinzu und ändert keine Berechtigungen.
 
 ## Qualität und Teststand
+
+RC29: [Aktueller Prüfbericht](QUALITAET-RC29.md). Bei Installationsproblemen `DIAGNOSE OCB.GG DARK THEME.cmd` im entpackten Paket starten.
+
 Theme-Erkennung wurde im Client bestätigt; die RC10-Gestaltung wurde vom Auftraggeber akzeptiert; RC18 wurde im Hochformat stichprobenartig live geprüft; vollständige Live-Abdeckung steht aus. Automatische Prüfungen umfassen Manifest, lokale Dateien, CSS, ausgewählte Komponenten, Skalierungen und die TS6-Grenze von **2 MiB je Erweiterungsdatei**. Der Originalbanner bleibt pixelidentisch verlustfrei gespeichert. Die neue Wellentextur ist ein **hochskalierter 4K-Export (3840 × 2160)** aus einer KI-generierten Quelle mit 1672 × 941 Pixeln, kein natives 4K. WebP-Qualität 96, 1.254.124 Bytes. Der Export schafft keine zusätzlichen nativen Details.
 
 Windows-Installation wurde getestet, Linux/macOS nicht. Details: [Kompatibilität](KOMPATIBILITAET.md).

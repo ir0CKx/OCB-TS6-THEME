@@ -2,6 +2,14 @@
 $ErrorActionPreference = 'Stop'
 $identifier = 'gg.ocb.obsidian'
 $source = Join-Path $PSScriptRoot $identifier
+foreach ($required in @('gg.ocb.obsidian\package.json','Verify-Package.ps1','SHA256SUMS.txt')) {
+ if (-not (Test-Path -LiteralPath (Join-Path $PSScriptRoot $required) -PathType Leaf)) {
+  throw "Installationspaket unvollstaendig: $required fehlt. ZIP per 'Alle extrahieren' vollstaendig in einen neuen Ordner entpacken. Nicht aus der ZIP starten."
+ }
+}
+Write-Output ("Windows-Benutzer: " + [Environment]::UserName)
+Write-Output ("Erweiterungsordner: " + $ExtensionsRoot)
+Write-Output 'Bei abweichendem TS6-Profil: Einstellungen > Erscheinungsbild > Verzeichnis fuer Erweiterungen oeffnen und Ziel vergleichen.'
 $meta = Get-Content -LiteralPath (Join-Path $source 'package.json') -Raw | ConvertFrom-Json
 if ($meta.identifier -ne $identifier) { throw 'Ungueltige Paketkennung.' }
 $root = [IO.Path]::GetFullPath($ExtensionsRoot)

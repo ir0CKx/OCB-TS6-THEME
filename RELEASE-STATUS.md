@@ -1,1 +1,1 @@
-RC28: Chat-Lesbarkeit und Tastaturfokus verbessert; vollständige Texte bleiben erhalten.
+RC29: Dashboard-Eingabefelder und Installationsdiagnose verbessert. Prüfgrenzen siehe QUALITAET-RC29.md.
