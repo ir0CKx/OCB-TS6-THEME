@@ -5,7 +5,7 @@
 2. TeamSpeak schließen.
 3. Optional VERIFY-WINDOWS.cmd starten und die Prüfsummen kontrollieren.
 4. INSTALL-WINDOWS.cmd starten. Keine Administratorrechte erforderlich.
-5. TeamSpeak öffnen und unter Darstellung / Appearance das User Theme aktualisieren und OCB Obsidian Glass RC14 auswählen. Bezeichnungen können je nach Client-Version abweichen.
+5. TeamSpeak öffnen und unter Darstellung / Appearance das User Theme aktualisieren und OCB Obsidian Glass RC15 auswählen. Bezeichnungen können je nach Client-Version abweichen.
 
 Standardziel: %APPDATA%\TeamSpeak\Default\extensions\gg.ocb.obsidian
 Für andere Profile den Ordner gg.ocb.obsidian manuell in deren extensions-Verzeichnis kopieren. package.json liegt direkt im Theme-Ordner.
@@ -29,4 +29,4 @@ Theme fehlt: Ordnerstruktur prüfen; keine zusätzliche Verschachtelung zwischen
 Darstellung fehlerhaft: Standardtheme wählen und Client-Version, Skalierung sowie betroffenen Dialog für eine Fehlermeldung notieren.
 Bildschirmfreigabe gestört: zunächst mit dem Standardtheme vergleichen. Das OCB-Theme konfiguriert keine Freigaberechte oder Netzwerkverbindungen.
 
-RC14 nutzt ein zusammenhaengendes Wellenbild hinter dem Kanalbaum. Einzelne serverseitige Kanalbilder werden lokal ausgeblendet, einschliesslich eventuell darin eingebauter Texte/Logos; native Kanalnamen, Icons und der Server-Kopfbanner bleiben sichtbar. Bei deaktiviertem Theme erscheinen die Serverbilder wieder.
+RC15 nutzt ein zusammenhaengendes Wellenbild hinter dem Kanalbaum. Einzelne serverseitige Kanalbilder werden lokal ausgeblendet, einschliesslich eventuell darin eingebauter Texte/Logos; native Kanalnamen, Icons und der Server-Kopfbanner bleiben sichtbar. Bei deaktiviertem Theme erscheinen die Serverbilder wieder.

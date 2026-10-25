@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.14
+/* OCB.GG Obsidian Glass 1.0.0-rc.15
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
@@ -478,3 +478,50 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .tsv-client-info > .tsv-scroll-area-v > .ts-widget-container > * {
   flex: 0 0 auto !important;
 }
+
+/* RC15: compact metadata must not squeeze message text into a thin column.
+   Flex wrapping responds to panel width, not whole-window width. */
+.ts-chat-room-event-compact .ts-chat-room-event-compact.actual {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.ts-chat-room-event-compact .actual > .ts-chat-message-compact-details {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  overflow-wrap: anywhere;
+}
+.ts-chat-room-event-compact .actual > .ts-chat-message-main {
+  flex: 1 1 20rem;
+  min-width: 0;
+  max-width: 100%;
+}
+.ts-chat-room-event-compact .ts-chat-sender-name {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+.ts-chat-room-event-compact .ts-chat-message-main .ts-parsed-text-content,
+.ts-chat-room-event-detailed .ts-chat-message-content,
+.ts-chat-room-event-compact .ts-chat-message-main .ts-parsed-text-content a,
+.ts-chat-room-event-detailed .ts-chat-message-content a {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+.ts-chat-message-system-body .ts-chat-message-system-body-contents {
+  min-width: 0;
+  flex: 1 1 0;
+  line-height: 1.35;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+.ts-chat-message-system-body .ts-chat-message-system-body-contents > span {
+  min-width: 0;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+.ts-chat-message-system-body .ts-chat-message-system-time { white-space: nowrap; flex-shrink: 0; }

@@ -1,8 +1,15 @@
 # Changelog
 
+## 1.0.0-rc.15 — 25. Oktober 2026
+- Kompakter Chat: Nachrichten wechseln bei wenig Platz unter Zeitstempel/Nutzernamen, statt in eine schmale Restspalte gedrückt zu werden.
+- Lange URLs dürfen umbrechen; normaler Text wird bevorzugt an Wortgrenzen umgebrochen.
+- Systemmeldungen mit flexibler Textbreite, ungeteilten Zeitstempeln und besserem Zeilenabstand.
+- Keine Änderungen an Nachrichteninhalten, Links, Farben oder der Nutzeransicht.
+- Einklappen durch Ziehen nicht implementiert: Die Mindestbreite des rechten Bereichs wird von TS6s Layoutlogik begrenzt, nicht vom Theme.
+
 Änderungen am OCB.GG Obsidian Glass Theme für TeamSpeak 6, neueste Version zuerst.
 
-**Aktuell: RC14.** Nutzer von RC12/RC13 sollten wegen der fehlerhaften Kartenhöhen auf RC14 aktualisieren.
+**Aktuell: RC15.** Nutzer von RC12/RC13 sollten wegen der fehlerhaften Kartenhöhen auf RC14 aktualisieren.
 
 ## 1.0.0-rc.14 — 22. Oktober 2026
 - Fehler in der Nutzeransicht behoben: Native Karten behielten bei vertikaler Anordnung ihre für horizontale Anordnung gedachte Flex-Basis von 100 % und ihr Wachstum. Dies konnte überhohe Karten und große Leerflächen verursachen.
