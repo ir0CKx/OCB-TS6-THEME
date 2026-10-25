@@ -1,1 +1,1 @@
-RC23: Dunkle lachsrote inaktive Sprechanzeige und dezente Absender-Hinterlegung.
+RC24: Vereinheitlichte Anleitung und Fehlersuche für die OCB-Installationsdateien.

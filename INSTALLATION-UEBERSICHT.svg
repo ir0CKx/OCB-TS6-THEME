@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1020" viewBox="0 0 1120 1020" role="img" aria-labelledby="title desc">
-<title id="title">OCB.GG - Glass &amp; Dark Theme v1.0.0-rc.23 – Installation</title><desc id="desc">Sechs Etappen: schließen, entpacken, installieren, Erfolg prüfen, Theme aktivieren, verbinden.</desc>
+<title id="title">OCB.GG - Glass &amp; Dark Theme v1.0.0-rc.24 – Installation</title><desc id="desc">Sechs Etappen: schließen, entpacken, installieren, Erfolg prüfen, Theme aktivieren, verbinden.</desc>
 <rect width="1120" height="1020" rx="24" fill="#0d1015"/>
 <g font-family="Segoe UI,Arial,sans-serif" fill="#edf0f4">
 <text x="48" y="64" font-size="18" letter-spacing="3" fill="#adb6c3">OCB.GG / #OTHERSCANTBEAT</text>
 <text x="48" y="119" font-size="38" font-weight="700">Dein Theme. In wenigen Schritten.</text>
-<text x="48" y="155" font-size="19" fill="#adb6c3">TeamSpeak 6 · Windows · OCB.GG - Glass &amp; Dark Theme v1.0.0-rc.23</text>
+<text x="48" y="155" font-size="19" fill="#adb6c3">TeamSpeak 6 · Windows · OCB.GG - Glass &amp; Dark Theme v1.0.0-rc.24</text>
 <rect x="48" y="190" width="1024" height="104" rx="14" fill="#191e26" stroke="#333c49"/>
 <circle cx="86" cy="226" r="20" fill="#cbd3de"/>
 <text x="86" y="233" text-anchor="middle" font-size="20" font-weight="700" fill="#10141b">1</text>
@@ -21,21 +21,21 @@
 <circle cx="86" cy="462" r="20" fill="#cbd3de"/>
 <text x="86" y="469" text-anchor="middle" font-size="20" font-weight="700" fill="#10141b">3</text>
 <text x="126" y="461" font-size="23" font-weight="700">Installer starten</text>
-<text x="126" y="485" font-size="17" fill="#c5ced9">INSTALL OCB.GG DARK THEME.cmd doppelklicken.</text>
-<text x="126" y="504" font-size="17" fill="#c5ced9">Keine Administratorrechte erforderlich.</text>
+<text x="126" y="485" font-size="17" fill="#c5ced9">INSTALL OCB.GG DARK THEME doppelklicken.</text>
+<text x="126" y="504" font-size="17" fill="#c5ced9">.cmd ist oft ausgeblendet. Normal starten, nicht als Administrator.</text>
 <rect x="48" y="544" width="1024" height="104" rx="14" fill="#191e26" stroke="#333c49"/>
 <circle cx="86" cy="580" r="20" fill="#cbd3de"/>
 <text x="86" y="587" text-anchor="middle" font-size="20" font-weight="700" fill="#10141b">4</text>
 <text x="126" y="579" font-size="23" font-weight="700">Erfolg abwarten</text>
-<text x="126" y="603" font-size="17" fill="#c5ced9">Erst nach „Installiert.“ eine Taste drücken.</text>
-<text x="126" y="622" font-size="17" fill="#c5ced9">Das Fenster schließt sich; Ordner schließen.</text>
+<text x="126" y="603" font-size="17" fill="#c5ced9">„ERFOLGREICH INSTALLIERT“ und Zielordner prüfen.</text>
+<text x="126" y="622" font-size="17" fill="#c5ced9">Danach eine Taste drücken und den Ordner schließen.</text>
 <rect x="48" y="662" width="1024" height="104" rx="14" fill="#191e26" stroke="#333c49"/>
 <circle cx="86" cy="698" r="20" fill="#cbd3de"/>
 <text x="86" y="705" text-anchor="middle" font-size="20" font-weight="700" fill="#10141b">5</text>
 <text x="126" y="697" font-size="23" font-weight="700">Theme aktivieren</text>
 <text x="126" y="721" font-size="17" fill="#c5ced9">TS6 starten → Einstellungen → Erscheinungsbild.</text>
 <text x="126" y="740" font-size="17" fill="#c5ced9">Benutzer-Theme einschalten, ggf. aktualisieren.</text>
-<text x="126" y="759" font-size="17" fill="#c5ced9">OCB.GG - Glass &amp; Dark auswählen.</text>
+<text x="126" y="759" font-size="17" fill="#c5ced9">OCB-Paket, dann OCB.GG - Glass &amp; Dark auswählen.</text>
 <rect x="48" y="780" width="1024" height="104" rx="14" fill="#191e26" stroke="#333c49"/>
 <circle cx="86" cy="816" r="20" fill="#cbd3de"/>
 <text x="86" y="823" text-anchor="middle" font-size="20" font-weight="700" fill="#10141b">6</text>
