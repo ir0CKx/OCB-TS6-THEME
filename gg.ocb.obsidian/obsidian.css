@@ -638,6 +638,15 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   color: #f3f4f6 !important;
 }
 
+/* RC27: host-message dialog only; applies to every server with this theme.
+   Keep the native icon box and all modal actions intact. */
+.tsv-modal-overlay-inner:has(> .ts-server-host-message-container) > svg:first-child {
+  background: url("assets/bigcircle.webp") center / contain no-repeat;
+}
+.tsv-modal-overlay-inner:has(> .ts-server-host-message-container) > svg:first-child > * {
+  opacity: 0;
+}
+
 /* RC26: dashboard-only OCB treatment. Native content, actions and discovery
    artwork remain intact. Decorative hero uses the original local banner. */
 .tsv-dashboard-clearance {

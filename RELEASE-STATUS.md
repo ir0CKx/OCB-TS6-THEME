@@ -1,1 +1,1 @@
-RC26: OCB-Dashboard mit Originalbanner und responsiven Glas-Karten. Browser-Komponententests; noch kein Live-Dashboard-Abnahmetest.
+RC27: OCB-Logo im Server-Willkommensdialog, für alle Server bei aktivem Theme.

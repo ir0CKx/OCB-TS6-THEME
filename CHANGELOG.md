@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.27 — 25. Oktober 2026
+- OCB-Bigcircle ersetzt das feste TeamSpeak-Symbol im Server-Willkommensdialog.
+- Gilt bei aktivem Theme für alle Server; das tatsächliche Server-Icon wird nicht verändert.
+- Nachricht, Weiter-/Trennen-Schaltfläche und andere Dialogsymbole bleiben erhalten.
+
+
 ## 1.0.0-rc.26 — 25. Oktober 2026
 - Dashboard im OCB-Look: originaler lokaler Banner, dunkler Glas-/Wellenhintergrund, texturierte Karten und silberne Aktionen.
 - Vorhandene Community-, Server-, Chat- und News-Inhalte bleiben erhalten; keine neuen Datenabfragen oder erfundenen Funktionen.
