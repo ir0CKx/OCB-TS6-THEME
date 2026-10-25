@@ -1,8 +1,9 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.19
+/* OCB.GG - Glass & Dark Theme | maintained source
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
 :root, :before, :after {
+  --ocb-focus: #e2e8f0;
   --ts-primary-background: #0d0f12 !important;
   --ts-primary-background-darker: #090a0c !important;
   --ts-primary-background-darker-op95: rgba(9,10,12,.97) !important;
@@ -100,7 +101,7 @@
 }
 
 input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-visible,a:focus-visible {
-  outline: 2px solid #b9d8ff !important; outline-offset: 2px;
+  outline: 2px solid var(--ocb-focus) !important; outline-offset: 2px;
 }
 ::selection { background: #536680; color: #fff; }
 
@@ -183,20 +184,6 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   background-color: rgba(8,10,13,.65);
 }
 
-/* TS6 renders this direct child for channels WITHOUT a server banner.
-   Keep native positioning, indentation, icons and selected/active outlines. */
-.ts-server-tree-item-leaf.channel > .tsv-item-highlight {
-  display: block;
-  background-image: linear-gradient(90deg,rgba(8,10,13,.82),rgba(8,10,13,.62)),url("assets/glass-4k.webp") !important;
-  background-color: #0d1015;
-  background-size: auto, cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed !important;
-  -webkit-mask-image: linear-gradient(to bottom,transparent 0%,#000 16%,#000 84%,transparent 100%);
-  mask-image: linear-gradient(to bottom,transparent 0%,#000 16%,#000 84%,transparent 100%);
-}
-
 /* Solid menus keep artwork away from commands and avoid blur rendering cost. */
 .ts-context-menu,.ts-false-context-menu {
   background-color: #15181d !important;
@@ -212,7 +199,7 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .ts-input:focus-visible,
 [contenteditable="true"]:focus-visible,
 .tsv-item[tabindex]:focus-visible {
-  outline: 2px solid #b9d8ff !important;
+  outline: 2px solid var(--ocb-focus) !important;
   outline-offset: -2px;
 }
 .ts-server-tree-item-leaf.channel {
@@ -443,7 +430,7 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .tsv-client-info button:focus-visible,
 .tsv-client-info a:focus-visible,
 .ts-server-tree-wrapper [tabindex]:focus-visible {
-  outline: 2px solid #b9d8ff !important;
+  outline: 2px solid var(--ocb-focus) !important;
   outline-offset: -2px;
 }
 
@@ -543,7 +530,7 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 }
 .tsv-sidebar [tabindex]:focus-visible,
 .tsv-settings-categories [tabindex]:focus-visible {
-  outline: 2px solid #c7d3e2;
+  outline: 2px solid var(--ocb-focus);
   outline-offset: -2px;
 }
 /* RC17: the native absolutely positioned advanced toggle overlaps the
@@ -571,20 +558,15 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   white-space: normal;
 }
 
-/* RC18: decorative stream setup labels only. Native help, controls and
-   privacy state remain untouched. Basic section structure verified in TS6.
-   Optional app-audio cards do not affect the privacy selector. */
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div:nth-child(2) > .slider-label-min-width > label::before { content: "🎛️"; content: "🎛️" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div:nth-child(3) > .slider-label-min-width > label::before { content: "🔊"; content: "🔊" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div:has(.tsv-segmented-control-icon-white) > .slider-label-min-width > label::before { content: "🛡️"; content: "🛡️" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div > .slider-label-min-width > label::before {
+/* Stream decorations are deliberately neutral: labels and native icons carry
+   meaning. No nth-child coupling to optional rows or future client updates. */
+.ts-setup-stream .setup-stream__settings .slider-label-min-width > label::before {
+  content: "⚙";
+  content: "⚙" / "";
   display: inline-block;
   width: 1.25em;
   margin-inline-end: .35em;
-  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
-  font-size: 1em;
-  line-height: inherit;
-  vertical-align: baseline;
+  color: #bbc2cc;
   pointer-events: none;
 }
 
@@ -664,7 +646,7 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .ts-chat-message-main a:focus-visible,
 .ts-chat-input-container :is(button,[tabindex]):focus-visible,
 .tsv-modal-overlay-inner :is(button,a,[tabindex]):focus-visible {
-  outline: 2px solid #d5dfe9;
+  outline: 2px solid var(--ocb-focus);
   outline-offset: -2px;
 }
 
@@ -752,7 +734,7 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   border-radius: 8px;
 }
 .tsv-dashboard-clearance :is(button,a,[tabindex]):focus-visible {
-  outline: 2px solid #e2e8f0;
+  outline: 2px solid var(--ocb-focus);
   outline-offset: 2px;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -764,30 +746,13 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   }
 }
 
-/* The native advanced rows live AFTER the second section title, not inside it.
-   Scope and six-row structure verified against the installed client bundle. */
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div > .slider-label-min-width > label::before {
-  display: inline-block;
-  width: 1.25em;
-  margin-inline-end: .35em;
-  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
-  line-height: inherit;
-  pointer-events: none;
-}
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(1) > .slider-label-min-width > label::before { content: "🖥️"; content: "🖥️" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(2) > .slider-label-min-width > label::before { content: "🎞️"; content: "🎞️" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(3) > .slider-label-min-width > label::before { content: "📶"; content: "📶" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(4) > .slider-label-min-width > label::before { content: "🎵"; content: "🎵" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(5) > .slider-label-min-width > label::before { content: "👥"; content: "👥" / ""; }
-.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(6) > .slider-label-min-width > label::before { content: "🔗"; content: "🔗" / ""; }
-
 /* RC29: dashboard readability without changing native control behaviour. */
 .tsv-dashboard-clearance :is(input,textarea)::placeholder {
   color: #aeb8c5;
   opacity: 1;
 }
 .tsv-dashboard-clearance :is(input,textarea,select):focus-visible {
-  outline: 2px solid #e2e8f0;
+  outline: 2px solid var(--ocb-focus);
   outline-offset: 2px;
 }
 .tsv-dashboard-clearance :is(.title,.subtitle,.tsv-dashboard-widget-hero-description,.ts-start-community-banner__title) {
@@ -797,4 +762,19 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
 .tsv-dashboard-clearance :is(button:disabled,button[aria-disabled="true"]) {
   cursor: not-allowed;
   box-shadow: none;
+}
+
+/* Active channel and explicit selection are separate native states. */
+.ts-server-tree-wrapper .ts-server-tree-item-leaf.channel.tsv-active:not(.tsv-selected) {
+  background: rgba(190,207,229,.12) !important;
+  box-shadow: inset 2px 0 0 #aebccd;
+}
+/* Keep native drop-target feedback distinct from hover and selection. */
+.ts-server-tree-wrapper .tsv-item-drag-and-drop-target > .tsv-item-highlight {
+  border: 2px dashed #aebccd;
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+.ts-server-tree-wrapper .tsv-item-drag-and-drop-target-active > .tsv-item-highlight {
+  border-color: #e2e8f0;
 }

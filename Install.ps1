@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop'
 $identifier = 'gg.ocb.obsidian'
 $source = Join-Path $PSScriptRoot $identifier
-foreach ($required in @('gg.ocb.obsidian\package.json','Verify-Package.ps1','SHA256SUMS.txt')) {
+foreach ($required in @('gg.ocb.obsidian\package.json','Verify-Package.ps1')) {
  if (-not (Test-Path -LiteralPath (Join-Path $PSScriptRoot $required) -PathType Leaf)) {
   throw "Installationspaket unvollstaendig: $required fehlt. ZIP per 'Alle extrahieren' vollstaendig in einen neuen Ordner entpacken. Nicht aus der ZIP starten."
  }

@@ -1,1 +1,1 @@
-RC29: Dashboard-Eingabefelder und Installationsdiagnose verbessert. Prüfgrenzen siehe QUALITAET-RC29.md.
+RC30: Zustandskorrekturen, portable Prüfungen und vereinfachtes Download-Paket. Details: docs/quality/RC30.md.

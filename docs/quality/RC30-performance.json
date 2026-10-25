@@ -1,0 +1,55 @@
+{
+  "synthetic": true,
+  "liveStreaming": false,
+  "note": "Headless browser fixture, not a GPU/encoder benchmark or live-client FPS guarantee.",
+  "results": [
+    {
+      "round": 0,
+      "theme": "native",
+      "medianMs": 4.199999999999932,
+      "p95Ms": 4.2000000000000455,
+      "framesOver33ms": 0,
+      "samples": 119
+    },
+    {
+      "round": 0,
+      "theme": "ocb",
+      "medianMs": 4.199999999999818,
+      "p95Ms": 4.2999999999999545,
+      "framesOver33ms": 1,
+      "samples": 119
+    },
+    {
+      "round": 1,
+      "theme": "ocb",
+      "medianMs": 4.199999999999818,
+      "p95Ms": 4.300000000000182,
+      "framesOver33ms": 0,
+      "samples": 119
+    },
+    {
+      "round": 1,
+      "theme": "native",
+      "medianMs": 4.199999999999932,
+      "p95Ms": 4.300000000000011,
+      "framesOver33ms": 0,
+      "samples": 119
+    },
+    {
+      "round": 2,
+      "theme": "native",
+      "medianMs": 4.199999999999989,
+      "p95Ms": 4.300000000000011,
+      "framesOver33ms": 0,
+      "samples": 119
+    },
+    {
+      "round": 2,
+      "theme": "ocb",
+      "medianMs": 4.199999999999818,
+      "p95Ms": 4.2999999999999545,
+      "framesOver33ms": 0,
+      "samples": 119
+    }
+  ]
+}

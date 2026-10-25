@@ -12,7 +12,7 @@
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.29**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.30**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
@@ -46,7 +46,7 @@ Nach der Installation das aktuelle OCB-Paket und darunter **OCB.GG - Glass & Dar
 ## Häufige Stolperstellen
 
 - **Datei finden:** Die Installation heißt `INSTALL OCB.GG DARK THEME.cmd`, die Deinstallation `UNINSTALL OCB.GG DARK THEME.cmd`. `Install.ps1` ist die Hilfsdatei; für den normalen Ablauf den `.cmd`-Starter verwenden.
-- **ZIP vollständig entpacken:** Neben dem Starter müssen `Install.ps1`, `Verify-Package.ps1`, `SHA256SUMS.txt` und `gg.ocb.obsidian` liegen. Nicht nur den Starter herausziehen. Für jedes Update einen neuen, leeren Ordner verwenden.
+- **ZIP vollständig entpacken:** Neben den Startern liegen `START HIER.html`, `Anleitung`, `Daten` und `SHA256SUMS.txt`. Die Hilfsskripte und das Theme liegen zusammen in `Daten`. Nicht nur den Starter herausziehen. Für jedes Update einen neuen, leeren Ordner verwenden.
 - **TeamSpeak noch geöffnet:** Auch das Symbol im Infobereich prüfen. Bei der entsprechenden Fehlermeldung TeamSpeak beenden und erneut installieren.
 - **Paketprüfung fehlgeschlagen:** Nicht weiterkopieren. Das aktuelle Release neu herunterladen und vollständig in einen leeren Ordner entpacken.
 - **Theme nicht sichtbar:** In TeamSpeak „Verzeichnis für Erweiterungen öffnen“ verwenden und mit dem vom Installer ausgegebenen Ziel vergleichen. Bei einem anderen Profil dessen Verzeichnis nutzen. `package.json` muss direkt in `extensions/gg.ocb.obsidian/` liegen. Anschließend die Theme-Liste aktualisieren.
@@ -56,4 +56,4 @@ Nach der Installation das aktuelle OCB-Paket und darunter **OCB.GG - Glass & Dar
 ## Installationsdiagnose
 Bei Problemen `DIAGNOSE OCB.GG DARK THEME.cmd` im vollständig entpackten Download starten. Sie zeigt Benutzer, Zielpfad, installierte Version, fehlende Kerndateien und Paketintegrität. Sie verändert keine Dateien. Den Zielpfad mit dem Ordner vergleichen, den TeamSpeak unter Erscheinungsbild öffnet; bei anderen Profilen ist der Standardpfad nicht automatisch der aktive Profilpfad. Keine Administratorrechte verwenden.
 
-Für ein abweichendes Profil kann `Diagnose.ps1 -ExtensionsRoot "C:\Pfad\zum\extensions"` bzw. `Install.ps1 -ExtensionsRoot "C:\Pfad\zum\extensions"` verwendet werden. Nur den in TeamSpeak angezeigten Ordner wählen.
+Für ein abweichendes Profil kann `Daten\Diagnose.ps1 -ExtensionsRoot "C:\Pfad\zum\extensions"` bzw. `Daten\Install.ps1 -ExtensionsRoot "C:\Pfad\zum\extensions"` verwendet werden. Nur den in TeamSpeak angezeigten Ordner wählen.

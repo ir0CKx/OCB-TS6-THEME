@@ -1,3 +1,11 @@
+## 1.0.0-rc.30 – Zustände, Prüfungen und klare Installation
+- Aktive Kanäle wieder erkennbar; Auswahl und Drag-and-drop bleiben unterscheidbar.
+- Einheitlicher heller Tastaturfokus; überholte Einzelzeilen-Texturregel entfernt.
+- Streaming-Einstellungen erhalten dezente neutrale Symbole statt fehleranfälliger Zuordnung nach Zeilennummer.
+- Download aufgeräumt: START HIER.html, drei Starter, Anleitung und Daten.
+- Reproduzierbarer ZIP-Build, portable Regressionstests und Windows-Paketprüfung auf GitHub.
+- Synthetischer Scrollvergleich ergänzt. Keine Behauptung einer vollständigen Live- oder Streaming-Leistungsfreigabe.
+
 ## 1.0.0-rc.29 – Bedienbarkeit und Installationsdiagnose
 - Dashboard: besser lesbare Platzhalter, Tastaturfokus für Eingabefelder und Umbrüche langer Überschriften.
 - Installationsziel und Windows-Benutzer werden vor der Installation angezeigt.

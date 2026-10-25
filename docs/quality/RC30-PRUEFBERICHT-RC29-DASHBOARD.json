@@ -1,0 +1,126 @@
+{
+  "liveClient": false,
+  "description": "Dashboard component fixture, not live client screenshot.",
+  "results": [
+    {
+      "width": 360,
+      "zoom": 1,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "288px"
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "168px"
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "108px"
+    },
+    {
+      "width": 600,
+      "zoom": 1,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "528px"
+    },
+    {
+      "width": 600,
+      "zoom": 1.5,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "328px"
+    },
+    {
+      "width": 600,
+      "zoom": 2,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "228px"
+    },
+    {
+      "width": 1080,
+      "zoom": 1,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "326.656px 326.672px 326.656px"
+    },
+    {
+      "width": 1080,
+      "zoom": 1.5,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "317px 317px"
+    },
+    {
+      "width": 1080,
+      "zoom": 2,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "468px"
+    },
+    {
+      "width": 1920,
+      "zoom": 1,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "606.656px 606.672px 606.672px 0px 0px"
+    },
+    {
+      "width": 1920,
+      "zoom": 1.5,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "393.333px 393.333px 393.333px"
+    },
+    {
+      "width": 1920,
+      "zoom": 2,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "437px 437px"
+    },
+    {
+      "width": 3840,
+      "zoom": 1,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "1246.66px 1246.67px 1246.66px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "width": 3840,
+      "zoom": 1.5,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "820px 820px 820px 0px 0px 0px 0px"
+    },
+    {
+      "width": 3840,
+      "zoom": 2,
+      "overflow": false,
+      "hero": true,
+      "buttons": true,
+      "grid": "606.664px 606.664px 606.672px 0px 0px"
+    }
+  ]
+}

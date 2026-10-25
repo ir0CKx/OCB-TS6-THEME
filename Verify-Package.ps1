@@ -1,5 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath($PSScriptRoot).TrimEnd('\')
+if ((Split-Path $root -Leaf) -eq 'Daten') { $root = Split-Path $root -Parent }
 $count = 0
 $listed = @{}
 foreach ($line in Get-Content -LiteralPath (Join-Path $root 'SHA256SUMS.txt')) {
@@ -16,7 +17,7 @@ foreach ($line in Get-Content -LiteralPath (Join-Path $root 'SHA256SUMS.txt')) {
  $count++
 }
 if ($count -eq 0) { throw 'Empty checksum list.' }
-$themeRoot = Join-Path $root 'gg.ocb.obsidian'
+$themeRoot = Join-Path $PSScriptRoot 'gg.ocb.obsidian'
 foreach ($item in Get-ChildItem -LiteralPath $themeRoot -Recurse -Force) {
  if ($item.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Linked theme files or directories are not supported.' }
  if (-not $item.PSIsContainer -and -not $listed.ContainsKey($item.FullName)) {

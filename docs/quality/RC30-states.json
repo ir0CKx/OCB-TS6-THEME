@@ -1,0 +1,12 @@
+{
+  "liveClient": false,
+  "pass": true,
+  "active": "rgba(190, 207, 229, 0.12)",
+  "selected": "rgba(190, 207, 229, 0.2)",
+  "drop": "dashed",
+  "focus": "rgb(226, 232, 240)",
+  "icons": [
+    "\"⚙\" / \"\"",
+    "\"⚙\" / \"\""
+  ]
+}

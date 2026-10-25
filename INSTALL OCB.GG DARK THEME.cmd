@@ -1,5 +1,5 @@
 @echo off
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Install.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Daten\Install.ps1"
 set "ocbExit=%errorlevel%"
 echo.
 if not "%ocbExit%"=="0" (
