@@ -1,14 +1,14 @@
-# OCB.GG - Glass & Dark Theme v1.0.0-rc.21
+# OCB.GG - Glass & Dark Theme v1.0.0-rc.22
 
 TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, silberne Akzente, originaler OCB-Kopfbanner und ein durchgehendes Glas-/Wellenmotiv hinter dem Kanalbaum.
 
-**Aktuelle Version: 1.0.0-rc.21** · Windows-Installer inklusive.
+**Aktuelle Version: 1.0.0-rc.22** · Windows-Installer inklusive.
 
-[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.21.zip)
+[**Download: vollständiges Theme-Paket**](https://github.com/ir0CKx/OCB-TS6-THEME/raw/refs/heads/main/downloads/OCB.GG-Glass-Dark-Theme-v1.0.0-rc.22.zip)
 
 ## Installation unter Windows
 
-![OCB.GG - Glass & Dark Theme v1.0.0-rc.21 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
+![OCB.GG - Glass & Dark Theme v1.0.0-rc.22 – Installation in sechs Etappen](INSTALLATION-UEBERSICHT.svg)
 
 1. **TeamSpeak 6 vollständig schließen**, auch unten rechts im Infobereich der Windows-Taskleiste.
 2. Die heruntergeladene **ZIP-Datei vollständig entpacken** (Rechtsklick → Alle extrahieren).
@@ -18,11 +18,11 @@ TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, 
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.21**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.22**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
-**Bei Updates:** Der Installer sichert die bisherige OCB-Version automatisch. Falls noch das alte Design angezeigt wird, kurz das Standardtheme und anschließend **OCB.GG - Glass & Dark Theme v1.0.0-rc.21** auswählen.
+**Bei Updates:** Der Installer sichert die bisherige OCB-Version automatisch. Falls noch das alte Design angezeigt wird, kurz das Standardtheme und anschließend **OCB.GG - Glass & Dark Theme v1.0.0-rc.22** auswählen.
 
 [Ausführliche Anleitung und Fehlerbehebung](INSTALLATION-DE.md) · [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN-DE.md) · [Änderungen](CHANGELOG.md)
 

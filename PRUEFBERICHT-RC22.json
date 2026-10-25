@@ -1,0 +1,405 @@
+{
+  "liveClient": false,
+  "cases": [
+    {
+      "width": 260,
+      "zoom": 1,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 260,
+      "zoom": 1.25,
+      "emoji": "16.1px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 260,
+      "zoom": 1.5,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 260,
+      "zoom": 2,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 295,
+      "zoom": 1,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 295,
+      "zoom": 1.25,
+      "emoji": "16.1px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 295,
+      "zoom": 1.5,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 295,
+      "zoom": 2,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.25,
+      "emoji": "16.1px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.25,
+      "emoji": "16.1px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.5,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 2,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 900,
+      "zoom": 1,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 900,
+      "zoom": 1.25,
+      "emoji": "16.1px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 900,
+      "zoom": 1.5,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    },
+    {
+      "width": 900,
+      "zoom": 2,
+      "emoji": "16.0938px",
+      "marginLeft": "12px",
+      "marginTop": "16px",
+      "marginBottom": "10px",
+      "overflow": false,
+      "icons": [
+        "\"🖥️\" / \"\"",
+        "\"🎞️\" / \"\"",
+        "\"📶\" / \"\"",
+        "\"🎵\" / \"\"",
+        "\"👥\" / \"\"",
+        "\"🔗\" / \"\""
+      ],
+      "other": "none",
+      "speak": "rgb(250, 128, 114)",
+      "help": true
+    }
+  ]
+}

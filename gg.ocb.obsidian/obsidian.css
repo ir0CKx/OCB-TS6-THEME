@@ -587,3 +587,49 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   vertical-align: baseline;
   pointer-events: none;
 }
+
+/* RC22: native day separators, including compact legacy server chat. */
+.ts-chat-message-main .ts-chat-message-content-emoji,
+.ts-chat-message-content .ts-chat-message-content-emoji {
+  width: 1.15em !important;
+  height: 1.15em !important;
+  max-width: 1.15em;
+  max-height: 1.15em;
+  vertical-align: -.15em;
+  object-fit: contain;
+}
+.ts-chat-day-start,
+.ts-chat-room-event-detailed.is-system > .ts-chat-message-header {
+  box-sizing: border-box;
+  margin: 16px 12px 10px;
+  padding: 8px 0 0;
+  border-top: 1px solid rgba(199,211,226,.18);
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Native normal-speaking palette only; silent, whisper and commander
+   indicators retain their distinct status colours. */
+:root {
+  --tsv-client-talking--outline: #ffb4a8 !important;
+  --tsv-client-talking--gradient-start: #fa8072 !important;
+  --tsv-client-talking--gradient-stop: #dc655c !important;
+}
+
+/* The native advanced rows live AFTER the second section title, not inside it.
+   Scope and six-row structure verified against the installed client bundle. */
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div > .slider-label-min-width > label::before {
+  display: inline-block;
+  width: 1.25em;
+  margin-inline-end: .35em;
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+  line-height: inherit;
+  pointer-events: none;
+}
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(1) > .slider-label-min-width > label::before { content: "🖥️"; content: "🖥️" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(2) > .slider-label-min-width > label::before { content: "🎞️"; content: "🎞️" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(3) > .slider-label-min-width > label::before { content: "📶"; content: "📶" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(4) > .slider-label-min-width > label::before { content: "🎵"; content: "🎵" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(5) > .slider-label-min-width > label::before { content: "👥"; content: "👥" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:nth-child(2) + div > div:nth-child(6) > .slider-label-min-width > label::before { content: "🔗"; content: "🔗" / ""; }
