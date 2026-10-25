@@ -609,12 +609,26 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   overflow-wrap: anywhere;
 }
 
-/* Native normal-speaking palette only; silent, whisper and commander
-   indicators retain their distinct status colours. */
+/* Normal voice states use salmon; whisper and commander keep distinct colours. */
 :root {
+  --tsv-client-silent--outline: #a77771 !important;
+  --tsv-client-silent--gradient-start: #704540 !important;
+  --tsv-client-silent--gradient-stop: #442c2a !important;
   --tsv-client-talking--outline: #ffb4a8 !important;
   --tsv-client-talking--gradient-start: #fa8072 !important;
   --tsv-client-talking--gradient-stop: #dc655c !important;
+}
+
+/* RC23: restrained sender highlight, preserving native per-name colours.
+   Do not target system-message strong tags: they also contain channel names. */
+.ts-chat-sender.ts-chat-sender-name,
+.ts-chat-message-sender-name {
+  background-color: rgba(199,211,226,.08);
+  background-color: color-mix(in srgb, currentColor 12%, transparent);
+  border-radius: 4px;
+  padding: 1px 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 /* The native advanced rows live AFTER the second section title, not inside it.

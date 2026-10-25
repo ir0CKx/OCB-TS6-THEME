@@ -1,1 +1,1 @@
-RC22: Chat-Abstände, erweiterte Freigabe-Icons, lachsrote Sprechanzeige und dezente native Chat-Emojis.
+RC23: Dunkle lachsrote inaktive Sprechanzeige und dezente Absender-Hinterlegung.

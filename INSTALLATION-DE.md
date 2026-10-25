@@ -12,7 +12,7 @@
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.22**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
+9. Zuerst **OCB.GG - Glass & Dark Theme v1.0.0-rc.23**, danach darunter **OCB.GG - Glass & Dark** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
@@ -41,4 +41,4 @@ Bildschirmfreigabe gestört: zunächst mit dem Standardtheme vergleichen. Das OC
 Das Theme nutzt ein zusammenhaengendes Wellenbild hinter dem Kanalbaum. Einzelne serverseitige Kanalbilder werden lokal ausgeblendet, einschliesslich eventuell darin eingebauter Texte/Logos; native Kanalnamen, Icons und der Server-Kopfbanner bleiben sichtbar. Bei deaktiviertem Theme erscheinen die Serverbilder wieder.
 
 ## Wechsel von RC18 und älter
-Nach der Installation einmal **OCB.GG - Glass & Dark Theme v1.0.0-rc.22** auswählen. Ab RC19 bleibt die CSS-Datei gleich. Falls eine Paketprüfung zusätzliche Theme-Dateien meldet, das neue ZIP in einen leeren Ordner entpacken statt alte und neue Installationsdateien zu mischen.
+Nach der Installation einmal **OCB.GG - Glass & Dark Theme v1.0.0-rc.23** auswählen. Ab RC19 bleibt die CSS-Datei gleich. Falls eine Paketprüfung zusätzliche Theme-Dateien meldet, das neue ZIP in einen leeren Ordner entpacken statt alte und neue Installationsdateien zu mischen.

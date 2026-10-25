@@ -54,5 +54,5 @@ Write-Output ''
 Write-Output ('ERFOLGREICH INSTALLIERT: ' + $meta.name)
 Write-Output ('Installiert. Ziel: ' + $target)
 Write-Output 'Naechster Schritt: TeamSpeak 6 starten > Einstellungen > Erscheinungsbild.'
-Write-Output 'Benutzer-Theme aktivieren, Liste aktualisieren und OCB.GG - Glass & Dark Theme v1.0.0-rc.22 auswaehlen.'
+Write-Output 'Benutzer-Theme aktivieren, Liste aktualisieren und OCB.GG - Glass & Dark Theme v1.0.0-rc.23 auswaehlen.'
 Write-Output 'ZIP und entpackten Installationsordner erst entfernen, wenn das Theme funktioniert.'

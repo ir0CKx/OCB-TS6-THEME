@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0-rc.23 — 25. Oktober 2026
+- Inaktive normale Sprechblase in dunklem, entsättigtem Lachsrot. Aktives Sprechen bleibt hell lachsrot; Flüstern und Commander behalten eigene Farben.
+- Absendernamen in kompakten und detaillierten Chatnachrichten dezent in der nativen Namensfarbe hinterlegt. Keine Rollen-Zuordnung; Links, Nachrichtentext und Systemmeldungen bleiben unverändert.
+
+
 ## 1.0.0-rc.22 — 25. Oktober 2026
 - „Gespräch begonnen“ mit 12 px seitlichem Abstand, 16 px Abstand oben, 10 px unten und dezenter Trennlinie.
 - Sechs zusätzliche dekorative Symbole bei den erweiterten Freigabeeinstellungen. Hilfen und native Steuerelemente bleiben erhalten.
