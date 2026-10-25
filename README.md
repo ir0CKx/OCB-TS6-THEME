@@ -1,5 +1,7 @@
 # OCB.GG - Glass & Dark Theme v1.0.0-rc.28
 
+![OCB.GG Glass & Dark Theme – Designvorschau](docs/media/OCB-GitHub-Social-Preview.jpg)
+
 TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, silberne Akzente, originaler OCB-Kopfbanner und ein durchgehendes Glas-/Wellenmotiv hinter dem Kanalbaum.
 
 **Aktuelle Version: 1.0.0-rc.28** · Windows-Installer inklusive.
@@ -27,6 +29,13 @@ TeamSpeak-6-Client-Theme von **#OTHERSCANTBEAT / OCB.GG**. Dunkle Oberflächen, 
 [Ausführliche Anleitung und Fehlerbehebung](INSTALLATION-DE.md) · [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN-DE.md) · [Änderungen](CHANGELOG.md)
 
 ## Vorschau
+
+### Dashboard
+![OCB-Dashboard – statische Komponentenvorschau](DASHBOARD-RC26-VORSCHAU.png)
+
+Die Dashboard-Abbildung zeigt eine Komponentenvorschau, keinen Live-Screenshot.
+
+### Kanalbaum und Navigation (früherer Entwurf)
 Die folgende Abbildung ist eine **statische Layout-Testansicht**, kein Live-Screenshot. Die tatsächliche Anordnung hängt von Client-Version, Fenstergröße, Server und Skalierung ab.
 
 ![Statische OCB-Layout-Testansicht](VORSCHAU.png)
