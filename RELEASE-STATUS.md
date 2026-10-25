@@ -1,1 +1,1 @@
-RC17: Quellen und Download fuer die Veroeffentlichung vorbereitet. RC10 live bestaetigt; neue RC17-Grafik und Icon-Regeln in Komponenten-/Layouttests geprueft. Vollstaendige Live-Abnahme bleibt offen. Nutzungsbedingungen in LICENSE.txt.
+RC18: dekorative Emojis in der Bildschirmfreigabe. RC17-Streamempfang mit Bild und Bewegung vom Nutzer bestätigt. Explorer-Entpacken geprüft; intermittierender Windows-Startabsturz nicht behoben. Layouttests sind keine vollständige Live-Abnahme aller Geräte.

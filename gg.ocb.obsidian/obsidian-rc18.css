@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass 1.0.0-rc.17
+/* OCB.GG Obsidian Glass 1.0.0-rc.18
  * Uses selectors and variables inspected in the locally installed TeamSpeak 6 client.
  * Local artwork only. No scripts, remote fonts, telemetry or hidden controls.
  */
@@ -588,4 +588,21 @@ input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-vis
   flex: 0 1 auto;
   max-width: 100%;
   white-space: normal;
+}
+
+/* RC18: decorative stream setup labels only. Native help, controls and
+   privacy state remain untouched. Basic section structure verified in TS6.
+   Optional app-audio cards do not affect the privacy selector. */
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div:nth-child(2) > .slider-label-min-width > label::before { content: "🎛️"; content: "🎛️" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div:nth-child(3) > .slider-label-min-width > label::before { content: "🔊"; content: "🔊" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div:has(.tsv-segmented-control-icon-white) > .slider-label-min-width > label::before { content: "🛡️"; content: "🛡️" / ""; }
+.ts-setup-stream .setup-stream__settings > .setup-stream__settings-section:first-child > div > .slider-label-min-width > label::before {
+  display: inline-block;
+  width: 1.25em;
+  margin-inline-end: .35em;
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 1em;
+  line-height: inherit;
+  vertical-align: baseline;
+  pointer-events: none;
 }

@@ -19,8 +19,12 @@ Die ZIP-Datei wird auf Archivfehler, Pfade und Prüfsummen geprüft. Theme-Datei
 
 ## Noch offen
 
-- Vollständige Live-Prüfung in allen Fenstergrößen und Bildschirmfreigabe mit einem empfangenden Teilnehmer. Es wurde kein Bildschirmstream übertragen und keine Channel-Änderung gespeichert.
+- Vollständige Live-Prüfung in allen Fenstergrößen. Keine Channel-Änderung gespeichert.
 - Tatsächliche Windows-DPI-Wechsel zwischen mehreren Monitoren und Langzeit-Scrollleistung auf schwächerer Hardware.
-- Explorer: Ereignisse bestätigen AppHangB1/AppHangTransient, identifizieren aber keine verursachende Theme-Datei oder Erweiterung. Eine Behebung ist nicht nachgewiesen. RC17 ändert keine Explorer-Einstellungen.
+- Explorer: Bei einem Start am 25.10.2026 um 16:14 Uhr trat zusätzlich ein Absturz in Microsoft.UI.Xaml.dll (0xc0000005) auf. Später ließen sich Downloads und das RC17-ZIP öffnen und entpacken; alle 21 Paketdateien bestanden die Prüfsummenprüfung. Eine dauerhafte Behebung des intermittierenden Explorer-Absturzes und ein ursächlicher Zusammenhang mit dem Theme sind nicht nachgewiesen. RC17 ändert keine Explorer-Einstellungen.
 
 Die Mindestbreite und das Einklappen der Chatspalte werden weiterhin von TS6 gesteuert. Das CSS umgeht diese Beschränkung nicht. Bei sehr schmalen Fenstern die native Seitenleiste einklappen oder das Fenster verbreitern.
+
+## Ergänzter Live-Test am 25. Oktober 2026
+
+Bildschirmfreigabe: neutrale Anwendung mit Sekundenzähler und bewegtem Punkt ausgewählt, Anwendungsaudio ausgeschaltet. Nach ausdrücklicher Zustimmung öffentlich gestartet. Der Nutzer bestätigte auf einem zweiten Client sauberes Bild und Bewegung. Anschließend über das native Stream-Menü beendet. Dies bestätigt diesen Testlauf, keine allgemeine Netzwerk- oder Audiofreigabe-Prüfung.

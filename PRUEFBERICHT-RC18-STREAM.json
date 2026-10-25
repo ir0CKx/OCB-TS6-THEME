@@ -1,0 +1,492 @@
+{
+  "liveClient": false,
+  "description": "Scoped decorative selectors, optional audio/privacy rows and narrow label layout; fixture, not full native dialog.",
+  "cases": [
+    {
+      "width": 280,
+      "zoom": 1,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1.5,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1.5,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1.5,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 1.5,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 2,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 2,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 2,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 280,
+      "zoom": 2,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 1.5,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 360,
+      "zoom": 2,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.5,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.5,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.5,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 1.5,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 2,
+      "audio": false,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 2,
+      "audio": false,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 2,
+      "audio": true,
+      "privacy": false,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    },
+    {
+      "width": 680,
+      "zoom": 2,
+      "audio": true,
+      "privacy": true,
+      "icons": {
+        "preset": "\"🎛️\" / \"\"",
+        "audio": "\"🔊\" / \"\"",
+        "privacy": "\"🛡️\" / \"\"",
+        "resolution": "none"
+      },
+      "overflow": false,
+      "help": true
+    }
+  ]
+}

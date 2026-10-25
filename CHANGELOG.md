@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0-rc.18 — 25. Oktober 2026
+- Dezente Emojis bei den Grundeinstellungen der Bildschirmfreigabe: 🎛️ Voreinstellung, 🔊 Anwendungsaudio, 🛡️ Privatsphäre.
+- Vollbildprüfung im maximierten TS6-Fenster erfolgreich; 36 zusätzliche Komponentenfälle bestanden.
+- Texte, Hilfesymbole und Schalter bleiben erhalten; keine Änderung der Freigabeeinstellungen.
+- RC17-Live-Test ergänzt: Bild und Bewegung auf zweitem Client bestätigt, Stream anschließend beendet. Explorer-ZIP erfolgreich entpackt und geprüft; intermittierender Windows-Startabsturz bleibt ungeklärt.
+- Eigenes Downloadpaket; veröffentlichte RC17-Datei bleibt unverändert.
+
+
 ## 1.0.0-rc.17 — 25. Oktober 2026
 - Live gefundene Überlappung von Channel-Einstellungen und Erweitert-Schalter bei schmalen Detailspalten behoben; 20 Regressionstests ergänzt.
 - Installer trennt Erfolg und Fehler deutlich und nennt Version, Zielordner und naechste Schritte.

@@ -7,7 +7,7 @@ if ($meta.identifier -ne $identifier) { throw 'Ungueltige Paketkennung.' }
 $root = [IO.Path]::GetFullPath($ExtensionsRoot)
 $target = [IO.Path]::GetFullPath((Join-Path $root $identifier))
 if ([IO.Path]::GetDirectoryName($target) -ne $root.TrimEnd('\')) { throw 'Zielpfadpruefung fehlgeschlagen.' }
-foreach ($rel in @('package.json','obsidian-rc17.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
+foreach ($rel in @('package.json','obsidian-rc18.css','preview.png','assets\glass-4k.webp','assets\header.webp','assets\bigcircle.webp')) {
  if (-not (Test-Path -LiteralPath (Join-Path $source $rel) -PathType Leaf)) { throw "Datei fehlt: $rel" }
 }
 foreach ($asset in Get-ChildItem -LiteralPath $source -Recurse -File) {
@@ -49,5 +49,5 @@ Write-Output ''
 Write-Output ('ERFOLGREICH INSTALLIERT: OCB Obsidian Glass ' + $meta.version)
 Write-Output ('Installiert. Ziel: ' + $target)
 Write-Output 'Naechster Schritt: TeamSpeak 6 starten > Einstellungen > Erscheinungsbild.'
-Write-Output 'Benutzer-Theme aktivieren, Liste aktualisieren und OCB Obsidian Glass RC17 auswaehlen.'
+Write-Output 'Benutzer-Theme aktivieren, Liste aktualisieren und OCB Obsidian Glass RC18 auswaehlen.'
 Write-Output 'ZIP und entpackten Installationsordner erst entfernen, wenn das Theme funktioniert.'

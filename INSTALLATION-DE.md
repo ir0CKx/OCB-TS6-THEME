@@ -12,7 +12,7 @@
 6. Den entpackten Ordner schließen.
 7. **TeamSpeak 6 starten.**
 8. **Einstellungen → Erscheinungsbild → Benutzer-Theme** öffnen und den Haken bzw. Schalter aktivieren. Falls nötig, die Theme-Liste über das Aktualisieren-Symbol neu laden. Die Bezeichnungen können je nach Client-Version abweichen.
-9. Zuerst **OCB.GG Obsidian Glass**, danach darunter **OCB Obsidian Glass RC17** anklicken und aktivieren.
+9. Zuerst **OCB.GG Obsidian Glass**, danach darunter **OCB Obsidian Glass RC18** anklicken und aktivieren.
 10. Mit eurem **OCB-TeamSpeak-Server verbinden**.
 11. Sobald das Theme funktioniert, kannst du die **heruntergeladene ZIP und den entpackten Installationsordner löschen**. Die installierte Kopie bleibt in TeamSpeak erhalten. Den Ordner im TeamSpeak-Erweiterungsverzeichnis nicht löschen.
 
@@ -38,4 +38,4 @@ Theme fehlt: Ordnerstruktur prüfen; keine zusätzliche Verschachtelung zwischen
 Darstellung fehlerhaft: Standardtheme wählen und Client-Version, Skalierung sowie betroffenen Dialog für eine Fehlermeldung notieren.
 Bildschirmfreigabe gestört: zunächst mit dem Standardtheme vergleichen. Das OCB-Theme konfiguriert keine Freigaberechte oder Netzwerkverbindungen.
 
-RC17 nutzt ein zusammenhaengendes Wellenbild hinter dem Kanalbaum. Einzelne serverseitige Kanalbilder werden lokal ausgeblendet, einschliesslich eventuell darin eingebauter Texte/Logos; native Kanalnamen, Icons und der Server-Kopfbanner bleiben sichtbar. Bei deaktiviertem Theme erscheinen die Serverbilder wieder.
+RC18 nutzt ein zusammenhaengendes Wellenbild hinter dem Kanalbaum. Einzelne serverseitige Kanalbilder werden lokal ausgeblendet, einschliesslich eventuell darin eingebauter Texte/Logos; native Kanalnamen, Icons und der Server-Kopfbanner bleiben sichtbar. Bei deaktiviertem Theme erscheinen die Serverbilder wieder.
