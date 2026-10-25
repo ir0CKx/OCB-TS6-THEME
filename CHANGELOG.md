@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0-rc.21 — 25. Oktober 2026
+- Windows-Starter heißen jetzt `INSTALL OCB.GG DARK THEME.cmd` und `UNINSTALL OCB.GG DARK THEME.cmd`.
+- Anleitung und grafische Installationsübersicht angepasst. Installation, Design und kurzer Variantenname bleiben unverändert.
+
+
 ## 1.0.0-rc.20 — 25. Oktober 2026
 - RC19 wurde korrekt kopiert, aber von TeamSpeak wegen eines zu langen Variantennamens abgewiesen (Client-Log: maxLength 30).
 - Variante heißt jetzt stabil „OCB.GG - Glass & Dark“; der vollständige Produktname mit Version bleibt am Paket erhalten.
